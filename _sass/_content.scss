@@ -1,0 +1,103 @@
+@import "variables";
+@import "utilities";
+
+section {
+
+  //////////////////////////////
+  // Default content styles
+  //////////////////////////////
+
+  padding-top: 5%;
+  width: 100%;
+  header {
+    h1, h2 {
+      color: $primary-colour;
+    }
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1, h2 {
+      font-style: italic;
+    }
+    figure {
+      img {
+        max-width: 300px;
+        height: auto;
+      }
+      figcaption {
+        font-style: italic;
+        color: $secondary-text-colour;
+      }
+    }
+  }
+
+
+
+  //////////////////////////////
+  // Homepage content styles
+  //////////////////////////////
+
+  &.home {
+    padding-top: 5%;
+    width: 100%;
+    header {
+      h1, h2 {
+        color: $primary-text-colour;
+      }
+    }
+    article {
+      display: block;
+      h1, h2 {
+        color: green;
+      }
+      figure {
+        float: left;
+        &:nth-child(even) {
+          float: right;
+        }
+        padding: 10px;
+        figcaption {
+          font-style: italic;
+          color: $primary-colour;
+        }
+      }
+    }
+  }
+
+
+  //////////////////////////////
+  // Project content styles
+  //////////////////////////////
+
+
+  &.projects {
+    padding-top: 5%;
+    width: 100%;
+    header {
+      h1, h2 {
+        color: $primary-colour;
+      }
+    }
+    article {
+      display: block;
+      h1, h2 {
+        color: green;
+      }
+      figure {
+        float: left;
+        &:nth-child(even) {
+          float: right;
+        }
+        padding: 10px;
+        figcaption {
+          font-style: italic;
+          color: $primary-colour;
+        }
+      }
+    }
+  }
+}
+
+
