@@ -21,7 +21,8 @@ github_username:  jekyll
 markdown: kramdown
 
 collections:
-- projects
+  projects:
+    output: true
 
 defaults:
   -

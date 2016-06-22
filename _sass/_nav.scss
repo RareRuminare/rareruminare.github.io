@@ -6,13 +6,15 @@
 header.top-header {
 
   background-color: $primary-colour;
+  width: 100%;
 
-  .navbar {
+  nav.navbar {
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
 
-    width: 100%;
+    width: 80%;
     height: 7rem;
     z-index: 99;
 
@@ -25,6 +27,9 @@ header.top-header {
 
       .navbar-item {
         margin-bottom: 0;
+        &.active-nav {
+          font-size: 20px;
+        }
       }
     }
     .navbar-brand {}
@@ -52,12 +57,11 @@ header.top-header {
     }
   }
 
-  @include media-query($on-palm) {
-    .navbar {
-      justify-content: flex-start;
-      .navbar-options {
-        display: none;
-      }
-    }
-  }
+  // @include media-query($on-palm) {
+  //   .navbar {
+  //     .navbar-options {
+  //       display: none;
+  //     }
+  //   }
+  // }
 }

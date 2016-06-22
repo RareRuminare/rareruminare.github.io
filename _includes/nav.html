@@ -1,0 +1,24 @@
+<header class="top-header">
+  <nav class="navbar">
+    <!-- Navbar logo -->
+    <ul class="navbar-list navbar-brand">
+      <li class="navbar-item ">
+        <a class="navbar-link" href="{{ site.baseurl }}/realindex">Rare Ruminare</a>
+      </li>
+    </ul>
+
+    <!-- Nav links -->
+    <ul class="navbar-list navbar-options">
+      {% for site_page in site.pages %}
+      {% if site_page.title %}
+      <li class="navbar-item active-nav">
+        <a class="navbar-link" href="{{ site_page.url | prepend: site.baseurl }}">
+          {{ site_page.title }}
+        </a>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+
+  </nav>
+</header>
