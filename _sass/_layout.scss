@@ -2,18 +2,23 @@
 
 
 .white-hat {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: $navbar-width;
     right: 0;
     height: $header-height;
     border-bottom: 1px solid $primary-colour;
+    border-left: 1px solid $primary-colour;
+    background-color: $primary-contrast-colour;
+    z-index: 999;
 }
 
 .main-content {
     position: absolute;
     top: $header-height;
-
+    left: $navbar-width;
+    padding: 10%;
+    color: $primary-text-colour;
 }
 
 
