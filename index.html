@@ -2,7 +2,18 @@
 layout: default
 ---
 
-<section class="home">
+<nav class="nav-cards">
+  {% assign pages = site.pages | sort:"priority"  %}
+  {% for p in pages %}
+  {% if p.title %}
+  <figure>
+    <a class="nav-card-link" href="{{ p.url | prepend: site.baseurl }}">
+    {% include {{ p.icon }} %}
+    <figcaption>{{ p.title }}</figcaption>
+    </a>
+  </figure>
+ {% endif %}
+ {% endfor %}
+</nav>
 
-
-</section>
+{% include footer.html %}

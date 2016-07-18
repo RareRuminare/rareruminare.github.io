@@ -1,0 +1,19 @@
+@import "variables";
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    text-align: right;
+    p {
+        &:first-of-type {
+            font-weight: bold;
+        }
+        margin: 0;
+        padding: 0;
+        color: $primary-text-colour;
+    }
+}
