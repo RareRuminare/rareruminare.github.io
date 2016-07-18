@@ -3,22 +3,24 @@
     <!-- Navbar logo -->
     <ul class="navbar-list navbar-brand">
       <li class="navbar-item ">
-        <a class="navbar-link" href="{{ site.baseurl }}/realindex"><img src="/images/logo-no-background.svg" /></a>
+        <a class="navbar-link" href="{{ site.baseurl }}/realindex">
+          {% include logo.svg %}
+        </a>
       </li>
     </ul>
 
     <!-- Nav links -->
+    {% assign pages = site.pages | sort:"priority"  %}
     <ul class="navbar-list navbar-options">
-      {% for site_page in site.pages %}
-      {% if site_page.title %}
-      <li class="navbar-item active-nav">
-        <a class="navbar-link" href="{{ site_page.url | prepend: site.baseurl }}">
-          {{ site_page.title }}
+      {% for p in pages %}
+      {% if p.title %}
+      <li class="navbar-item">
+        <a class="navbar-link" href="{{ p.url | prepend: site.baseurl }}">
+         <p>{% include {{ p.icon }} %}{{ p.title }}</p>
         </a>
       </li>
       {% endif %}
       {% endfor %}
     </ul>
-
   </nav>
 </header>

@@ -1,66 +1,91 @@
 @import "variables";
 @import "utilities";
 
-/* Navbar */
+// /* Navbar */
 
 header.top-header {
 
-  background-color: $primary-colour;
-  width: 100%;
-  height: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  width: $navbar-width;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-right: 1px solid $primary-colour;
 
   nav.navbar {
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-
-    width: 80%;
-    z-index: 99;
-
-    img {
-      height: 100%;
-      width: 100%;
-    }
-
-    .container {
-      width: 100%;
-    }
 
     .navbar-list {
+
       list-style: none;
-      margin-bottom: 0;
+      padding: 0;
+      margin: 0 auto;
+
       .navbar-item {
-        margin-bottom: 0;
+        padding: 0;
+        margin: 0 auto;
+        border-bottom: 1px solid $primary-colour;
+
+        .navbar-link {
+          display: block;
+          height: 100%;
+          width: 100%;
+
+          img.navbar-icon {
+            height: 90px;
+            width: auto;
+            padding-right: 10px;
+          }
+
+          p, svg {
+            height: $header-height;
+            display: inline-block;
+            vertical-align: middle;
+          }
+        }
       }
     }
-    .navbar-brand {}
+    .navbar-brand {
+      .navbar-item {
+        height: $header-height;
+        padding: 0;
+        svg {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
     .navbar-options {
-      display: flex;
-      flex-direction: column;
+      .navbar-item {
+        padding-left: 20px;
+        &:hover {
+          background-color: $primary-colour;
+          color: $primary-contrast-text-colour;
+          svg {
+            .st1, .cls-1 {
+              fill: white;
+              color: white;
+            }
+          }
+        }
+        .navbar-link {
+          padding-top: 20px;
+          padding-bottom: 20px;
+        }
+      }
     }
 
-    .navbar-link {
-      text-transform: uppercase;
-      font-size: 1.8rem;
-      margin-right: 35px;
-      text-decoration: none;
-      color: white;
-    }
+
 
     .navbar-link.active {
       color: #33C3F0;
     }
   }
 
-  // @include media-query($on-palm) {
-  //   .navbar {
-  //     .navbar-options {
-  //       display: none;
-  //     }
-  //   }
-  // }
+  @include media-query($on-palm) {
+    .navbar {
+      .navbar-options {
+        display: none;
+      }
+    }
+  }
 }

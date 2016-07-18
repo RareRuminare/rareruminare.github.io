@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<svg width="180" height="80" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" viewBox="20 -10 180 100">
  <style type="text/css">
-	.st1{fill:#302255;}</style>
+  .st1{fill:#302255;}</style>
  <g>
   <title>Layer 1</title>
   <g id="svg_2">

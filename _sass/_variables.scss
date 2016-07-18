@@ -1,14 +1,12 @@
 // Our variables
 // $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-family: "skolar-sans-latin";
+$base-font-family: "skolar-sans-latin", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
-
-
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -21,13 +19,16 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 $primary-colour: #302255;
-$primary-contrast-colour: black;
-$primary-text-colour: black;
-$secondary-text-colour: grey;
-
+$primary-contrast-colour: white;
+$primary-text-colour: $primary-colour;
+$primary-contrast-text-colour: $primary-contrast-colour;
 
 $text-color:       #111;
-$background-color: $primary-colour;
-$brand-color:      #2a7ae2;
+$primary-background-color: white;
+$primary-contrast-background-color: white;
 
 $footer-height: 150px;
+
+$header-height: 100px;
+$navbar-width: 240px;
+
