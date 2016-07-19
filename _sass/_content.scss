@@ -1,5 +1,5 @@
-// @import "variables";
-// @import "utilities";
+@import "variables";
+@import "utilities";
 
 
 body.home {
@@ -14,9 +14,10 @@ body.home {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      align-items: space-around;
+      align-items: flex-start;
       figure {
         display: flex;
+
         a {
           display: block;
           width: 100%;
@@ -27,9 +28,19 @@ body.home {
         }
         width: 20%;
         height: auto;
+        padding: 30px;
         text-align: center;
       }
     }
   }
 }
 
+
+
+@include media-query($on-palm) {
+  body.home {
+    .main-content {
+      display: none;
+    }
+  }
+}
