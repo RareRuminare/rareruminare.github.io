@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body class="{% if page.url contains "realindex" %}home{% endif %}">
+  <body class="{{ page.body-class }}">
     {% include nav.html %}
     {% include body.html %}
   </body>
