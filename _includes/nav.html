@@ -3,7 +3,7 @@
     <!-- Navbar logo -->
     <ul class="navbar-list navbar-brand">
       <li class="navbar-item ">
-        <a class="navbar-link" href="{{ site.baseurl }}/">
+        <a class="navbar-link" href="{{ site.baseurl }}/realindex">
           {% include logo.svg %}
         </a>
       </li>
@@ -14,7 +14,7 @@
     <ul class="navbar-list navbar-options">
       {% for p in pages %}
       {% if p.title %}
-      <li class="navbar-item">
+      <li class="navbar-item {% if page.url contains p.url %}active-nav{% endif %}">
         <a class="navbar-link" href="{{ p.url | prepend: site.baseurl }}">
          <p>{% include {{ p.icon }} %}{{ p.title }}</p>
         </a>

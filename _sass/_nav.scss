@@ -84,8 +84,7 @@ body {
             color: $primary-contrast-text-colour;
             svg {
               .st1, .cls-1 {
-                fill: white;
-                color: white;
+                fill: $primary-contrast-colour;
               }
             }
           }
@@ -93,6 +92,23 @@ body {
             padding-top: 20px;
           }
         }
+
+        .navbar-item.active-nav, .navbar-item.active-nav:hover {
+            background-color: $primary-colour;
+            color: $primary-contrast-text-colour;
+            a {
+              color: inherit;
+              p {
+                color: inherit;
+              }
+            }
+            svg {
+              .st1, .cls-1 {
+                fill: $primary-contrast-colour;
+              }
+            }
+          }
+
       }
 
 
