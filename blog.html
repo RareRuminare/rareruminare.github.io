@@ -1,0 +1,23 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+icon: grass-three.svg
+priority: 3
+body-class: blog
+---
+
+<section class="blog-wall">
+  {% for post in site.posts %}
+  <article class="blog-brick" style="background-image: url({{ post.coverPhoto }});">
+    <a href="{{ post.url }}">
+    <header>
+      <p class="blog-date">Date: {{ post.date | date: "%B %-d %Y" }}</h2>
+      <p class="blog-title">{{ post.title }}</p>
+      <p class="blog-categories">{{ post.categories }}</p>
+    </header>
+    </a>
+  </article>
+  {% endfor %}
+</section>
+
