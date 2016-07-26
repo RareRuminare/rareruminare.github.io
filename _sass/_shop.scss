@@ -1,11 +1,11 @@
 @import "variables";
 
-body.shop {
+body.shop, body.about {
   section.products {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
     article {
       padding: 0;
       margin-bottom: 50px;
@@ -18,17 +18,19 @@ body.shop {
 
       &.product {
         padding: 0;
-        width: 400px;
         margin-right: 20px;
+        width: 100% - 30% - 5%;
       }
 
       &.product-image {
         background-color: $primary-colour;
-        height: 300px;
-        width: 300px;
+        width: 30%;
+        height: auto;
+        max-height: 300px;
         svg {
           display: block;
-          height: 100%;
+          height: 250px;
+          width: auto;
           margin: 0 auto;
           .st1, .cls-1 {
             fill: $primary-contrast-colour;
