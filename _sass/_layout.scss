@@ -1,23 +1,33 @@
 @import "variables";
+@import "utilities";
 
 
 .white-hat {
-    position: fixed;
-    top: 0;
-    left: $navbar-width;
-    right: 0;
-    height: $header-height;
-    border-bottom: 1px solid $primary-colour;
-    border-left: 1px solid $primary-colour;
-    background-color: $primary-contrast-colour;
-    z-index: 999;
+  position: fixed;
+  top: 0;
+  left: $navbar-width;
+  right: 0;
+  height: $header-height;
+  border-bottom: 1px solid $primary-colour;
+  border-left: 1px solid $primary-colour;
+  background-color: $primary-contrast-colour;
+  z-index: 999;
 }
 
 .main-content {
-    position: absolute;
-    top: $header-height;
-    left: $navbar-width;
-    right: 0;
-    padding: $main-content-padding;
-    color: $primary-text-colour;
+  position: absolute;
+  top: $header-height;
+  left: $navbar-width;
+  right: 0;
+  padding: $main-content-padding;
+  color: $primary-text-colour;
+}
+
+@include media-query($tablet) {
+  .main-content {
+    left: 0;
+  }
+  .white-hat {
+    display: none;
+  }
 }

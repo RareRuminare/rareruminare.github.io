@@ -18,6 +18,18 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+/* Custom, iPhone Retina */
+$small-phone: 320px;
+/* Extra Small Devices, Phones */
+$phone: 480px;
+/* Small Devices, Tablets */
+$tablet: 768px;
+/* Medium Devices, Desktops */
+$laptop: 992px;
+/* Large Devices, Wide Screens */
+$large-screen: 1200px;
+
+
 $primary-colour: #302255;
 $primary-contrast-colour: white;
 $primary-text-colour: $primary-colour;
@@ -26,8 +38,8 @@ $primary-contrast-text-colour: $primary-contrast-colour;
 $alpha: 0.5;
 
 $text-color:       #111;
-$primary-background-color: white;
-$primary-contrast-background-color: white;
+$primary-background-color: $primary-contrast-colour;
+$primary-contrast-background-color: $primary-colour;
 
 $footer-height: 150px;
 
@@ -36,3 +48,5 @@ $navbar-width: 240px;
 
 $main-content-padding: 70px;
 $generic-spacing: 20px;
+
+$structural-border: 1px solid $primary-colour;
