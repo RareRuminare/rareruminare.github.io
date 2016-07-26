@@ -1,0 +1,41 @@
+@import "variables";
+
+body.shop {
+  section.products {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    article {
+      padding: 0;
+      margin-bottom: 50px;
+      header {
+        p {
+          font-weight: bold;
+        }
+      }
+
+
+      &.product {
+        padding: 0;
+        width: 400px;
+        margin-right: 20px;
+      }
+
+      &.product-image {
+        background-color: $primary-colour;
+        height: 300px;
+        width: 300px;
+        svg {
+          display: block;
+          height: 100%;
+          margin: 0 auto;
+          .st1, .cls-1 {
+            fill: $primary-contrast-colour;
+            color: rgba($primary-colour, $alpha);
+          }
+        }
+      }
+    }
+  }
+}
