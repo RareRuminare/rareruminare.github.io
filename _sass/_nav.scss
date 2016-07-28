@@ -16,6 +16,7 @@ body {
         }
         .navbar-options {
           display: none;
+          visibility: hidden;
         }
       }
     }
@@ -24,6 +25,7 @@ body {
     }
 
   }
+
 
   header.top-header {
     width: $navbar-width;
@@ -35,10 +37,11 @@ body {
 
     nav.mobile-navbar {
       display: none;
+      background-color: $primary-contrast-colour;
     }
 
     nav.navbar {
-
+      position: relative;
       .navbar-list {
         list-style: none;
         padding: 0;
@@ -119,6 +122,18 @@ body {
     }
   }
 
+  @media (max-width: $tablet) and (orientation: landscape) {
+    header.top-header {
+      z-index: 1000;
+    }
+  }
+
+  @media (max-width: $phone) {
+    header.top-header {
+      z-index: 1000;
+    }
+  }
+
   @include media-query($tablet) {
     header.top-header {
       position: fixed;
@@ -127,6 +142,7 @@ body {
       height: $header-height;
       border: none;
       border-bottom: $structural-border;
+
       nav.navbar {
         display: none;
       }
