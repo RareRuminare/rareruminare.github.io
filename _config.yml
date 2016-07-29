@@ -19,15 +19,3 @@ port: 5000
 
 # Build settings
 markdown: kramdown
-
-collections:
-  projects:
-    output: true
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "projects" # a collection in your site, in plural form
-    values:
-      layout: "default"

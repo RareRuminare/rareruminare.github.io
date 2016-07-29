@@ -6,7 +6,7 @@ icon: grass-two.svg
 priority: 2
 body-class: about
 ---
-<section class="products">
+<!-- <section class="products">
   <article class="product">
     <header class="product-header">
       <h2>Our story</h2>
@@ -19,5 +19,12 @@ body-class: about
   </article>
   <article class="product-image">
       {% include grass-one.svg %}
+  </article>
+</section> -->
+
+<section>
+  <article class="copy">
+    {% capture copy %}{% include clive/about-copy.md %}{% endcapture %}
+    {{ copy | markdownify }}
   </article>
 </section>

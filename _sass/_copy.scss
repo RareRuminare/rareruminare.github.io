@@ -1,0 +1,21 @@
+@import "variables";
+
+
+body {
+  section {
+    article.copy {
+      padding: 0;
+      h2 {
+
+      }
+      svg.grass, img {
+        width: 60%;
+        float: right;
+        margin-left: $generic-spacing;
+      }
+      p {
+
+      }
+    }
+  }
+}
