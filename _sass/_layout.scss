@@ -26,6 +26,7 @@
 @include media-query($tablet) {
   .main-content {
     left: 0;
+    padding: $generic-spacing;
   }
   .white-hat {
     display: none;

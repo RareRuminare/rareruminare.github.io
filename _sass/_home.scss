@@ -23,9 +23,8 @@ body.home {
       align-items: center;
 
       figure {
-        // display: inline-block;
         height: 100%;
-        width: 300px;
+        width: 350px;
         text-align: center;
         a {
           display: block;
@@ -67,7 +66,7 @@ body.home {
             text-align: center;
             figcaption {
               font-size: 20px;
-              padding-left: $generic-spacing * 3;
+              padding-left: $generic-spacing;
             }
             svg.grass {
               width: 80px;
