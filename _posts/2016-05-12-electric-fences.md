@@ -18,6 +18,8 @@ I have a cheap very effective easy maintained simple system that is nothing extr
 The main change is the wire used. High tensile wire total over kill for this purpose, all the wire needs to be is solid, easy to work and galvanised, so it carries a good current and you can see if it is broken or damaged.
 
 ![galvanised-wire]
+*Soft solid steel galvanised wire*
+{:.blog-image}
 
 This is the stuff I use. It is soft solid steel galvanised wire (not high tensile) It is sold as tying wire and measured by weight rather than length but there is around 100m in every roll and costs €6.
 
@@ -28,6 +30,8 @@ Going a step further and using polywire as part of your permanent infrastructure
 To start and finish your strain you need plastic egg insultors, just tie one end with a short length of wire to the post and tie what will be your live wire though the other hole.
 
 ![posts]
+*A post*
+{:.blog-image}
 
 Posts are the next major thing to consider. Because you are not using high tensile wire the pressure on the posts is minimal so I use the cheapest post with a bit of bulk 5ft spilt posts which can be as cheap as €1.40
 
@@ -57,6 +61,7 @@ For the gate itself you can buy especial electric fencing spring gate of about �
 
 ![handle]
 *Picture is the insulted handle.*
+{:.blog-image}
 
 Another cheaper option (that can be a bit fiddly but handy of a gate that is not used very often) is to make a handle from a 1ft piece of water pipe with fencing wire fed though it a fashioned into a latch and in such a way that the pipe doesn’t slide.
 

@@ -119,35 +119,18 @@ body.blog {
     // padding: 10%;
     padding: $generic-spacing;
 
-    // p:nth-of-type(odd) {
-    //   img {
-    //     float: left;
-    //     width: 45%;
-    //   }
-    //   em {
-    //     float: left;
-    //     display: block;
-    //   }
-    // }
-    // p:nth-of-type(even) {
-    //   img {
-    //     float: right;
-    //     width: 45%;
-    //   }
-    //   em {
-    //     float: right;
-    //   }
-    // }
+    .blog-image {
+      &:nth-of-type(odd) {
+        float: left;
+        width: 45%;
+        margin-right: $generic-spacing;
+      }
 
-    img:nth-of-type(odd) {
-      float: left;
-      width: 45%;
-      margin-right: $generic-spacing;
-    }
-    img:nth-of-type(even) {
-      float: right;
-      width: 45%;
-      margin-left: $generic-spacing;
+      &:nth-of-type(even) {
+        float: right;
+        width: 45%;
+        margin-left: $generic-spacing;
+      }
     }
   }
 

@@ -13,8 +13,9 @@ I am not going to hide the fact that I am a farmer and a beef farmer at that, bu
 So, what is this article about? Cows and why they are so important.
 Cows are getting a lot of flack because of some scientific evidence about methane emissions which I believe are very true. My point is that cows are not to blame, we are!
 
-![cows]{:.image-class}
+![cows]
 *The cows are organising*
+{:.blog-image}
 
 Cows are supposed to eat grasses and weeds and forage for leaves on trees. With this diet their in-take of natural oils and fibre balances out the proteins they consume and they produce an acceptable amount of gas.  Over the last hundred years agriculture has driven us to breed cattle that are heavier, leaner and require grain to fatten them.
 
