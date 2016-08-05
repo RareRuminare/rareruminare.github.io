@@ -24,27 +24,35 @@ body.home {
 
       figure {
         height: 100%;
-        width: 350px;
+        max-width: 320px;
         text-align: center;
         a {
           display: block;
           width: 100%;
           height: 100%;
+          color: $primary-text-colour;
+          padding-top: 20%;
+          // padding-bottom: 10%;
           svg {
+            height: 70%;
             .st1, .cls-1 {
-              fill: rgba($primary-colour, $alpha);
-              color: rgba($primary-colour, $alpha);
+              fill: $primary-colour;
+              color: $primary-colour;
             }
+          }
+          figcaption {
+            height: 10%;
+            width: 30%;
+            margin: 0 auto;
+            font-size: $medium-font;
           }
 
           &:hover {
-            color: $primary-text-colour;
-            svg {
-              .st1, .cls-1 {
-                fill: $primary-colour;
-                color: $primary-colour;
-              }
+            // text-decoration: underline;
+            figcaption {
+              border-bottom: $structural-border;
             }
+            cursor: pointer;
           }
         }
       }

@@ -8,7 +8,7 @@ footer {
     right: 0;
     width: 100%;
     padding: 0;
-    padding-right: $generic-spacing;
+    padding-right: $generic-spacing * 2;
     text-align: right;
     p {
         &:first-of-type {
@@ -17,6 +17,8 @@ footer {
         margin: 0;
         padding: 0;
         color: $primary-text-colour;
+        font-size: $medium-font;
+        line-height: $medium-font + 2px;
     }
 }
 

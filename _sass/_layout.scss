@@ -8,15 +8,16 @@
   left: $navbar-width;
   right: 0;
   height: $header-height;
-  border-bottom: 1px solid $primary-colour;
-  border-left: 1px solid $primary-colour;
+  border-bottom: $structural-border;
+  border-left: $structural-border;
   background-color: $primary-contrast-colour;
   z-index: 999;
+  display: none;
 }
 
 .main-content {
   position: absolute;
-  top: $header-height;
+  top: 0;//$header-height;
   left: $navbar-width;
   right: 0;
   padding: $main-content-padding;
