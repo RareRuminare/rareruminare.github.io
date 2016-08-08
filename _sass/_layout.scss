@@ -1,27 +1,15 @@
 @import "variables";
 @import "utilities";
 
-
-.white-hat {
-  position: fixed;
-  top: 0;
-  left: $navbar-width;
-  right: 0;
-  height: $header-height;
-  border-bottom: $structural-border;
-  border-left: $structural-border;
-  background-color: $primary-contrast-colour;
-  z-index: 999;
-  display: none;
-}
-
 .main-content {
   position: absolute;
-  top: 0;//$header-height;
-  left: $navbar-width;
+  top: $header-height;
+  bottom: 0;
   right: 0;
-  padding: $main-content-padding;
+  left: 0;
   color: $primary-text-colour;
+  padding: $main-content-padding;
+
 }
 
 @include media-query($tablet) {

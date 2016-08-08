@@ -16,8 +16,12 @@
       {% if p.title %}
       <li class="navbar-item {% if page.url contains p.url %}active-nav{% elsif p.url contains page.body-class %}active-nav{% endif %}">
         <a class="navbar-link" href="{{ p.url | prepend: site.baseurl }}">
-         <p>{% include {{ p.icon }} %}{{ p.title }}</p>
+         {{ p.title }}
         </a>
+        <ul class="navbar-sub-list">
+          <li><a href="#">Beef</a></li>
+          <li><a href="#">Lamb</a></li>
+        </ul>
       </li>
       {% endif %}
       {% endfor %}
