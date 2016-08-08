@@ -40,7 +40,6 @@ body {
         }
 
         .navbar-item {
-
           margin: 0 auto;
           a.navbar-link {
             padding: $generic-spacing;
@@ -81,25 +80,37 @@ body {
           font-size: $medium-font;
         }
 
-        .active-nav, .navbar-item:hover, .navbar-item:active {
-          a.navbar-link {
-            border-bottom: $structural-border;
-            color: $primary-text-colour;
-          }
+        // .active-nav, .navbar-item:hover, .navbar-item:active {
+        a.navbar-link {
+          color: $primary-text-colour;
+        }
 
-          ul.navbar-sub-list {
-            visibility: visible;
-            padding-top: 2 * $generic-spacing;
-            li.navbar-item {
-              padding-bottom: 0;
-              a.navbar-link {
-                color: $primary-text-colour;
-                cursor: pointer;
-                border: none;
+        ul.navbar-sub-list {
+          padding-top: 2 * $generic-spacing;
+          li.navbar-item {
+            padding-left: $generic-spacing;
+            a.navbar-link {
+              color: $primary-text-colour;
+              cursor: pointer;
+              border: none;
+              padding: 0;
+              &:hover {
+                font-weight: bold;
               }
             }
           }
         }
+
+        .active-nav, .navbar-item:hover, .navbar-item:active {
+          a.navbar-link {
+            border-bottom: $structural-border;
+          }
+          ul.navbar-sub-list {
+            visibility: visible;
+          }
+        }
+
+        // }
       }
     }
   }

@@ -6,7 +6,7 @@ body-class: home
 <nav class="nav-cards">
   {% assign pages = site.pages | sort:"priority"  %}
   {% for p in pages %}
-  {% if p.title %}
+  {% if p.priority %}
   <figure>
     <a class="nav-card-link" href="{{ p.url | prepend: site.baseurl }}">
     {% include {{ p.icon }} %}

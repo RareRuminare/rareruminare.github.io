@@ -19,3 +19,4 @@ port: 5000
 
 # Build settings
 markdown: kramdown
+permalink: none

@@ -1,0 +1,19 @@
+---
+layout: page
+title: About
+permalink: /about/
+icon: grass-two.svg
+body-class: about
+priority: 2
+children:
+  - Clive Bright
+  - The Farm
+  - Contact
+---
+
+<section>
+  <article class="copy">
+    {% capture copy %}{% include clive/about-copy.md %}{% endcapture %}
+    {{ copy | markdownify }}
+  </article>
+</section>
