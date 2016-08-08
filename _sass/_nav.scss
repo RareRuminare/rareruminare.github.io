@@ -17,11 +17,6 @@ body {
 
   header.top-header {
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: $header-height;
 
     nav.mobile-navbar {
       display: none;
@@ -41,16 +36,14 @@ body {
           list-style: none;
           padding: 0;
           margin: 0;
+          visibility: hidden;
         }
 
         .navbar-item {
 
           margin: 0 auto;
           a.navbar-link {
-
             padding: $generic-spacing;
-
-
             img.navbar-icon {
               height: 90px;
               width: auto;
@@ -66,15 +59,10 @@ body {
             p {
               font-size: $medium-font;
             }
-
-            &:hover {
-              color: $primary-text-colour;
-              cursor: pointer;
-              border-bottom: $structural-border;
-            }
           }
         }
       }
+
       .navbar-brand {
         .navbar-item {
           height: $header-height;
@@ -88,15 +76,29 @@ body {
         justify-content: space-around;
         text-align: left;
         width: 100%;
+        padding-top: $generic-spacing;
         .navbar-item {
           font-size: $medium-font;
-          padding: $generic-spacing;
-          padding-bottom: $generic-spacing / 2;
         }
 
-        .navbar-item.active-nav, .navbar-item.active-nav:hover {
-          border-bottom: $structural-border;
-          color: $primary-text-colour;
+        .active-nav, .navbar-item:hover, .navbar-item:active {
+          a.navbar-link {
+            border-bottom: $structural-border;
+            color: $primary-text-colour;
+          }
+
+          ul.navbar-sub-list {
+            visibility: visible;
+            padding-top: 2 * $generic-spacing;
+            li.navbar-item {
+              padding-bottom: 0;
+              a.navbar-link {
+                color: $primary-text-colour;
+                cursor: pointer;
+                border: none;
+              }
+            }
+          }
         }
       }
     }
