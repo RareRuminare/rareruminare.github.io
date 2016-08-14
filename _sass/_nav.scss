@@ -78,6 +78,7 @@ body {
         padding-top: $generic-spacing;
         .navbar-item {
           font-size: $medium-font;
+          min-width: 100px;
         }
 
         // .active-nav, .navbar-item:hover, .navbar-item:active {
