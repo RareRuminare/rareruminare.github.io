@@ -1,0 +1,11 @@
+{% include watermark.html %}
+<footer class="social-footer">
+  <ul>
+    {% for s in site.social %}
+    <li>
+      <a href="{{ s.url }}" style="background-image: url({{ s.icon }})"></a>
+    </li>
+    {% endfor %}
+  </ul>
+</footer>
+
