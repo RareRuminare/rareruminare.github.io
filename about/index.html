@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: copy
 title: About
 permalink: /about/
 icon: grass-two.svg
@@ -11,9 +11,5 @@ priority: 2
   - Contact -->
 ---
 
-<section>
-  <article class="copy">
-    {% capture copy %}{% include clive/about-copy.md %}{% endcapture %}
-    {{ copy | markdownify }}
-  </article>
-</section>
+{% include md.html md='clive/about-copy.md' %}
+

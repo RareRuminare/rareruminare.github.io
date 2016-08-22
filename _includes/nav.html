@@ -20,9 +20,10 @@
         </a>
         <ul class="navbar-sub-list">
         {% for c in p.children %}
-          {% assign childurl = c | downcase | replace:" ","-" | urlencode %}
+          {% assign leaf = c | downcase | replace:" ","-" | urlencode %}
+          {% capture childurl %}{{ site.baseurl }}{{ p.url }}{{ leaf }}{% endcapture %}
           <li class="navbar-item {% if page.url contains childurl %}active-nav{% endif %}">
-            <a class="navbar-link" href="{{ p.url | prepend: site.baseurl }}{{ childurl }}">
+            <a class="navbar-link" href="{{ childurl }}">
               {{ c | camelcase }}
             </a>
           </li>

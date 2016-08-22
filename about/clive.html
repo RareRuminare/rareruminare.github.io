@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: copy
 title: About Clive
 permalink: /about/clive-bright/
 icon: grass-two.svg
@@ -7,9 +7,4 @@ body-class: about
 
 ---
 
-<section>
-  <article class="copy">
-    {% capture copy %}{% include clive/clive-copy.md %}{% endcapture %}
-    {{ copy | markdownify }}
-  </article>
-</section>
+{% include md.html md='clive/clive-copy.md' %}

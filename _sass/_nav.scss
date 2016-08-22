@@ -99,6 +99,11 @@ body {
                 font-weight: bold;
               }
             }
+            &.active-nav {
+              a.navbar-link {
+                font-weight: bold;
+              }
+            }
           }
         }
 

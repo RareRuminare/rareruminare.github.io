@@ -1,6 +1,16 @@
 @import "variables";
 
+body.shop {
+  .main-content {
+    padding: $main-content-padding * 2;
+    padding-top: 10%;
+  }
+}
+
 body.shop, body.about {
+
+
+
   section.products {
     display: flex;
     flex-wrap: wrap;
