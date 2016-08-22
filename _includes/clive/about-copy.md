@@ -1,5 +1,3 @@
-# Our story
-
 ![Some Cows](/images/cowmeeting.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet quis ipsum eu auctor. Pellentesque at nibh eu quam sodales auctor. Duis bibendum posuere neque vitae ultrices. Quisque nec felis neque.

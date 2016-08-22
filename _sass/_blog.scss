@@ -116,12 +116,15 @@ body.blog {
 
 .blog-post {
 
-  // padding: 10%;
-  padding-top: 0;
-  width: $content-width;
-  margin: 0 auto;
-  .blog-post-content {
+  // padding-top: 0;
+  // width: $content-width;
+  // margin: 0 auto;
 
+  h1.blog-title {
+    margin-left: -$generic-spacing;
+  }
+
+  .blog-post-content {
     p {
       font-size: 18px;
     }

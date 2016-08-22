@@ -12,6 +12,20 @@ body {
         width: 60%;
         float: right;
         margin-left: $generic-spacing;
+
+        &:nth-of-type(odd) {
+          float: left;
+          width: 45%;
+          margin-right: $generic-spacing;
+          margin-left: -$generic-spacing;
+        }
+
+        &:nth-of-type(even) {
+          float: right;
+          width: 45%;
+          margin-left: $generic-spacing;
+          margin-right: -$generic-spacing;
+        }
       }
       p {
 
