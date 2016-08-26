@@ -20,37 +20,68 @@
       background-size: cover;
       overflow: hidden;
     }
+
+    .container {
+      position: absolute;
+      top:0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      transition-property: background-color bottom color;
+      transition-duration: 2s;
+      transition-delay: 1s;
+      transition-timing-function: ease-in;
+      background-color: rgba(255, 255, 255, 0);
+    }
+
+  /*  .wf-active .container {
+      background-color: rgba(255, 255, 255, 0.9);
+    }*/
+
+    .st1 {
+      fill: white !important;
+      transition-property: fill;
+      transition-duration: 2s;
+      transition-delay: 1s;
+      transition-timing-function: ease-in;
+    }
+ /*   .wf-active .st1 {
+      fill: black !important;
+    }*/
+
     header {
       position: absolute;
       bottom: 0;
-      left: 0;
+      top: 80%;
       height: 150px;
       width: auto;
+      transition-property: top height;
+      transition-duration: 2s;
+      transition-delay: 1s;
+      transition-timing-function: ease-in;
     }
+
+/*    .wf-active header {
+      top: 0%;
+      height: 100px;
+    }*/
+
     svg {
       width: 100%;
       height: 100%;
     }
-    .st1 {
-      fill: white !important;
-    }
-    footer {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-    }
-
-    footer p {
-      color: white;
-    }
   </style>
+  <script src="https://use.typekit.net/kcl3xum.js"></script>
+  <script>try{Typekit.load({ async: false });}catch(e){}</script>
 </head>
 <body>
-<!--[if lt IE 8]>
+  <div class="container">
+  <!--[if lt IE 8]>
   <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
   <header>
     {% include logo.svg %}
   </header>
+  </div>
 </body>
 </html>

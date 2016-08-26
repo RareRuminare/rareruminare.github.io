@@ -1,14 +1,5 @@
 @import "variables";
 
-body.shop {
-  // .main-content {
-  //   padding: $main-content-padding * 2;
-  //   // padding-top: 10%;
-  //   padding-right: $main-content-padding * 4;
-  //   padding-left: $main-content-padding * 4;
-  // }
-}
-
 body.shop, body.about {
 
   section.products {
@@ -17,19 +8,20 @@ body.shop, body.about {
     align-content: center;
     justify-content: space-around;
     margin: 0 auto;
-    padding-top: $main-content-padding * 2;
+    padding-top: $main-content-padding;
     article {
       padding: 0;
       margin-bottom: 50px;
-      header {
-        p {
-          font-weight: bold;
-        }
-        h2 {
-          font-size: $medium-font;
-          font-weight: bold;
-        }
-      }
+      text-align: center;
+      // header {
+      //   p {
+      //     font-weight: bold;
+      //   }
+      //   // h2 {
+      //   //   font-size: $medium-font;
+      //   //   font-weight: bold;
+      //   // }
+      // }
 
 
       &.product {
