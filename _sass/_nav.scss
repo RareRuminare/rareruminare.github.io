@@ -63,10 +63,11 @@ body {
       }
 
       .navbar-brand {
+        width: $navbar-brand-width;
+        padding-left: 0;
         .navbar-item {
           height: $header-height;
           padding: 0;
-          padding-left: $generic-spacing;
         }
       }
 

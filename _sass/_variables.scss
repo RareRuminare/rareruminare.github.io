@@ -41,7 +41,7 @@ $primary-contrast-colour: white;
 $primary-text-colour: $primary-colour;
 $primary-contrast-text-colour: $primary-contrast-colour;
 
-$structural-border: 2px solid $primary-colour;
+$structural-border: 1px solid $primary-colour;
 
 $big-font: 20px;
 $medium-font: 16px;
@@ -56,6 +56,9 @@ $footer-height: 100px;
 
 $header-height: 100px;
 $navbar-font-size: 20px;
+
+$navbar-brand-width: 220px;
+
 
 $social-footer-height: $generic-spacing * 3;
 $social-footer-width: $generic-spacing * 10;
