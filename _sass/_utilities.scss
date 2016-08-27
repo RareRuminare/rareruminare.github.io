@@ -13,13 +13,21 @@
 
 
 @mixin background-image-cover($image-path) {
-  background: url($image-path) no-repeat bottom center fixed;
+  background: url($image-path) no-repeat bottom center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+
+@mixin background-image-contain($image-path) {
+  background: url($image-path) no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
 
 .clear {
   @extend %clearfix;

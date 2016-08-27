@@ -1,4 +1,5 @@
 @import "variables";
+@import "utilities";
 
 body.shop, body.about {
 
@@ -6,45 +7,27 @@ body.shop, body.about {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-around;
+    justify-content: center;
     margin: 0 auto;
     padding-top: $main-content-padding;
     article {
       padding: 0;
       margin-bottom: 50px;
       text-align: center;
-      // header {
-      //   p {
-      //     font-weight: bold;
-      //   }
-      //   // h2 {
-      //   //   font-size: $medium-font;
-      //   //   font-weight: bold;
-      //   // }
-      // }
-
 
       &.product {
-        padding: 0;
-        width: $generic-spacing * 20;
         position: relative;
+        width: 300px;
+        height: 500px;
+        padding: 0;
+        margin-right: $generic-spacing / 4;
 
-        ul.product-content-list {
-          list-style: none;
-          padding-left: 0;
-          margin-left: 0;
-          li {
-            display: inline;
-            font-style: italic;
-            &:after {
-              content: ",";
-            }
-            &:last-of-type {
-              &:after {
-                content: "...";
-              }
-            }
-          }
+        &.product-lamb {
+          @include background-image-cover("/images/lamb.jpg");
+        }
+
+        &.product-beef {
+          @include background-image-cover("/images/beef-cows.jpg");
         }
 
         a {
