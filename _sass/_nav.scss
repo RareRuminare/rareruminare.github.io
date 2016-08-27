@@ -7,16 +7,20 @@ body {
   &.home {
     header.top-header {
       nav.navbar {
-        .navbar-options {
+        .navbar-item {
           display: none;
           visibility: hidden;
+        }
+        .navbar-brand {
+          display: block;
+          visibility: visible;
         }
       }
     }
   }
 
   header.top-header {
-    width: 80%;
+    width: 100%;
 
     nav.mobile-navbar {
       display: none;
@@ -24,70 +28,24 @@ body {
     }
 
     nav.navbar {
-      display: flex;
       height: 100%;
+      width: 85%;
 
       .navbar-list {
         list-style: none;
         padding: 0;
         margin: 0;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        width: 100%;
+        padding-top: $generic-spacing;
 
         .navbar-sub-list {
           list-style: none;
           padding: 0;
           margin: 0;
           visibility: hidden;
-        }
-
-        .navbar-item {
-          margin: 0 auto;
-          a.navbar-link {
-            padding: $generic-spacing;
-            img.navbar-icon {
-              height: 90px;
-              width: auto;
-              padding-right: 10px;
-            }
-
-            svg {
-              height: $header-height;
-              display: inline-block;
-              vertical-align: middle;
-            }
-
-            p {
-              font-size: $medium-font;
-            }
-          }
-        }
-      }
-
-      .navbar-brand {
-        width: $navbar-brand-width;
-        padding-left: 0;
-        .navbar-item {
-          height: $header-height;
-          padding: 0;
-        }
-      }
-
-      .navbar-options {
-        display: flex;
-        justify-content: space-around;
-        text-align: left;
-        width: 100%;
-        padding-top: $generic-spacing;
-        .navbar-item {
-          font-size: $medium-font;
-          min-width: 100px;
-        }
-
-        // .active-nav, .navbar-item:hover, .navbar-item:active {
-        a.navbar-link {
-          color: $primary-text-colour;
-        }
-
-        ul.navbar-sub-list {
           padding-top: 2 * $generic-spacing;
           li.navbar-item {
             padding-left: $generic-spacing;
@@ -117,7 +75,56 @@ body {
           }
         }
 
-        // }
+        .navbar-item {
+          margin: 0 auto;
+          font-size: $medium-font;
+          // min-width: 100px;
+          // max-width: 100px;
+          a.navbar-link {
+            padding: $generic-spacing;
+            color: $primary-text-colour;
+            img.navbar-icon {
+              height: 90px;
+              width: auto;
+              padding-right: 10px;
+            }
+
+            svg {
+              height: $header-height;
+              display: inline-block;
+              vertical-align: middle;
+            }
+
+            p {
+              font-size: $medium-font;
+            }
+          }
+
+
+          &.navbar-option {
+            padding-left: 0;
+            padding-right: 0;
+          }
+          &:nth-child(2) {
+            padding-left: $navbar-brand-width;
+          }
+
+          &.navbar-brand {
+            height: $header-height;
+            width: $navbar-brand-width;
+            position: absolute;
+            top: 0;
+            left: 0;
+            .navbar-link:hover {
+              border: none;
+            }
+            &:hover {
+              a.navbar-link {
+                border: none;
+              }
+            }
+          }
+        }
       }
     }
   }
