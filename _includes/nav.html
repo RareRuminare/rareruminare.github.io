@@ -1,17 +1,13 @@
 <header class="top-header">
-  <nav class="navbar">
-
-    {% assign pages = site.pages | sort:"priority"  %}
+  <nav class="navbar-brand">
+    <a class="block-link" href="{{ site.baseurl }}/realindex">
+      {% include logo.svg %}
+    </a>
+  </nav>
+  {% assign pages = site.pages | sort:"priority"  %}
+  <nav class="navbar container">
     <ul class="navbar-list">
-
-      <!-- Navbar logo -->
-      <li class="navbar-item navbar-brand">
-        <a class="navbar-link" href="{{ site.baseurl }}/realindex">
-          {% include logo.svg %}
-        </a>
-      </li>
-
-      <!-- Nav links -->
+    <!-- Nav links -->
       {% for p in pages %}
       {% if p.priority %}
       <li class="navbar-item navbar-option {% if page.url contains p.url %}active-nav{% elsif p.url contains page.body-class %}active-nav{% endif %}">
@@ -30,7 +26,7 @@
       {% endfor %}
     </ul>
   </nav>
-  <nav class="mobile-navbar">
+  <!-- <nav class="mobile-navbar">
     <a class="navbar-brand" href="{{ site.baseurl }}/realindex">{% include logo.svg %}</a>
-  </nav>
+  </nav> -->
 </header>

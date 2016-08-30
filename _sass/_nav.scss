@@ -27,9 +27,30 @@ body {
       background-color: $primary-contrast-colour;
     }
 
+    nav.navbar-brand {
+      height: $header-height;
+      width: $navbar-brand-width;
+      position: absolute;
+      top: 0;
+      left: 0;
+      a {
+        padding: $generic-spacing;
+        padding-top: 0;
+        color: $primary-text-colour;
+        img.navbar-icon {
+          height: 90px;
+          width: auto;
+          // padding-right: 10px;
+        }
+        svg {
+          height: $header-height;
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+    }
+
     nav.navbar {
-      height: 100%;
-      width: 85%;
 
       .navbar-list {
         list-style: none;
@@ -39,8 +60,6 @@ body {
         justify-content: center;
         text-align: left;
         width: 100%;
-        padding-top: $generic-spacing;
-
         .navbar-sub-list {
           list-style: none;
           padding: 0;
@@ -72,54 +91,37 @@ body {
           }
           ul.navbar-sub-list {
             //todo -> this should be on in the appropriate cases.
-            // visibility: visible;
+            visibility: visible;
           }
         }
 
         .navbar-item {
           margin: 0 auto;
           font-size: $medium-font;
+          width: $content-width / 3;
           a.navbar-link {
             padding: $generic-spacing;
+            padding-bottom: $generic-spacing / 2;
             color: $primary-text-colour;
-            img.navbar-icon {
-              height: 90px;
-              width: auto;
-              padding-right: 10px;
-            }
-
-            svg {
-              height: $header-height;
-              display: inline-block;
-              vertical-align: middle;
-            }
-
-            p {
-              font-size: $medium-font;
-            }
           }
-
 
           &.navbar-option {
+            padding: 2 * $generic-spacing;
             padding-left: 0;
             padding-right: 0;
-          }
-          &:nth-child(2) {
-            padding-left: $navbar-brand-width;
-          }
-
-          &.navbar-brand {
-            height: $header-height;
-            width: $navbar-brand-width;
-            position: absolute;
-            top: 0;
-            left: 0;
-            .navbar-link:hover {
-              border: none;
+            &:nth-child(1) {
+              text-align: left;
+              a {
+                padding-left: 0;
+              }
             }
-            &:hover {
-              a.navbar-link {
-                border: none;
+            &:nth-child(2) {
+              text-align: center;
+            }
+            &:nth-child(3) {
+              text-align: right;
+              a {
+                padding-right: 0;
               }
             }
           }
