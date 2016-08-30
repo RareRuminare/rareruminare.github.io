@@ -71,15 +71,14 @@ body {
             border-bottom: $structural-border;
           }
           ul.navbar-sub-list {
-            visibility: visible;
+            //todo -> this should be on in the appropriate cases.
+            // visibility: visible;
           }
         }
 
         .navbar-item {
           margin: 0 auto;
           font-size: $medium-font;
-          // min-width: 100px;
-          // max-width: 100px;
           a.navbar-link {
             padding: $generic-spacing;
             color: $primary-text-colour;

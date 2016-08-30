@@ -9,7 +9,7 @@ body.shop, body.about {
     align-content: center;
     justify-content: center;
     margin: 0 auto;
-    padding-top: $main-content-padding;
+    padding-top: 0;
     article {
       padding: 0;
       margin-bottom: 50px;
@@ -17,10 +17,9 @@ body.shop, body.about {
 
       &.product {
         position: relative;
-        width: 300px;
-        height: 500px;
+        width: 272px;
+        height: 550px;
         padding: 0;
-        margin-right: $generic-spacing / 4;
 
         &.product-lamb {
           @include background-image-cover("/images/lamb.jpg");
@@ -28,6 +27,7 @@ body.shop, body.about {
 
         &.product-beef {
           @include background-image-cover("/images/beef-cows.jpg");
+          margin-right: 6px;
         }
 
         a {
