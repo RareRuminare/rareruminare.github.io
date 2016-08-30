@@ -2,19 +2,16 @@
 layout: default
 body-class: home
 ---
-
+<!--
 <nav class="nav-cards">
-  {% assign pages = site.pages | sort:"priority"  %}
-  {% for p in pages %}
-  {% if p.priority %}
-  <figure>
-    <a class="nav-card-link" href="{{ p.url | prepend: site.baseurl }}">
-    {% include {{ p.icon }} %}
-    <figcaption>{{ p.title }}</figcaption>
+  <figure> -->
+<div class="landing-grass">
+    <a class="block-link" href="{{ site.baseurl }}/shop/">
+    {% include grass-one.svg %}
     </a>
-  </figure>
- {% endif %}
- {% endfor %}
-</nav>
+</div>
+
+<!--   </figure>
+</nav> -->
 
 {% include footer.html %}
