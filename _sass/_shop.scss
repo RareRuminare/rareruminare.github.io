@@ -21,8 +21,31 @@ body.shop, body.about {
         height: 550px;
         padding: 0;
 
+        .block-link {
+          background-color: $primary-colour-alpha;
+          text-decoration: none;
+          p {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            margin: 0 auto;
+            color: white;
+            font-size: $medium-font;
+            font-weight: normal;
+          }
+        }
+
+        .block-link:hover {
+          background-color: transparent;
+          text-decoration: none;
+          p {
+            visibility: hidden;
+          }
+        }
+
         &.product-lamb {
           @include background-image-cover("/images/shop-lamb.jpg");
+
         }
 
         &.product-beef {
