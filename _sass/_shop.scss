@@ -21,6 +21,17 @@ body.shop, body.about {
         height: 550px;
         padding: 0;
 
+        .block-link {
+          background-color: transparent;
+          text-decoration: none;
+          p {
+            visibility: hidden;
+          }
+          transition-property: background-color visibility;
+          transition-duration: 0.15s;
+          transition-timing-function: linear;
+        }
+
         .block-link:hover, .block-link:active {
           background-color: $primary-colour-alpha;
           text-decoration: none;
@@ -33,14 +44,6 @@ body.shop, body.about {
             color: white;
             font-size: $medium-font;
             font-weight: normal;
-          }
-        }
-
-        .block-link {
-          background-color: transparent;
-          text-decoration: none;
-          p {
-            visibility: hidden;
           }
         }
 
