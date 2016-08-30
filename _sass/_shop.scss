@@ -17,17 +17,17 @@ body.shop, body.about {
 
       &.product {
         position: relative;
-        width: 272px;
+        width: 273px;
         height: 550px;
         padding: 0;
 
         &.product-lamb {
-          @include background-image-cover("/images/lamb.jpg");
+          @include background-image-cover("/images/shop-lamb.jpg");
         }
 
         &.product-beef {
-          @include background-image-cover("/images/beef-cows.jpg");
-          margin-right: 6px;
+          @include background-image-cover("/images/shop-beef.jpg");
+          margin-right: 4px;
         }
 
         a {

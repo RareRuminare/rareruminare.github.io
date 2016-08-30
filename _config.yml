@@ -6,12 +6,12 @@ baseurl: ""
 url: "http://www.rareruminare.com" # the base hostname & protocol for your site
 
 social:
-  - facebook:
-    url: "https://www.facebook.com/therareruminare/"
-    icon: "/images/facebook.svg"
   - instagram:
     url: "https://www.instagram.com/rareruminare/"
     icon: "/images/instagram.svg"
+  - facebook:
+    url: "https://www.facebook.com/therareruminare/"
+    icon: "/images/facebook.svg"
 
 # deployment
 host: 0.0.0.0
