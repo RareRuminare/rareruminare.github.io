@@ -21,11 +21,12 @@ body.shop, body.about {
         height: 550px;
         padding: 0;
 
-        .block-link {
+        .block-link:hover, .block-link:active {
           background-color: $primary-colour-alpha;
           text-decoration: none;
           p {
             position: absolute;
+            visibility: visible;
             top: 50%;
             width: 100%;
             margin: 0 auto;
@@ -35,7 +36,7 @@ body.shop, body.about {
           }
         }
 
-        .block-link:hover {
+        .block-link {
           background-color: transparent;
           text-decoration: none;
           p {
