@@ -138,10 +138,10 @@ body.blog {
       }
 
       &:nth-of-type(even) {
-        float: right;
-        width: 45%;
-        margin-left: $generic-spacing;
-        margin-right: -$generic-spacing;
+        float: left;
+        width: 500px;
+        margin-right: $generic-spacing;
+        margin-left: -$generic-spacing * 20;
       }
     }
   }

@@ -6,6 +6,10 @@ categories: article
 coverPhoto: /images/cowmeeting.jpg
 ---
 
+![cows]
+*The cows are organising*
+{:.blog-image}
+
 I was spurred into a debate on the Quickcrop facebook page when they posted a graphic illustrating that an acre can feed twenty average families but only one cow.  I argued the case for the cow and I’m pretty sure I won hands down! After challenging me to a fist fight, Andrew came to his senses and asked me to write an article for their blog, so here goes...
 
 I am not going to hide the fact that I am a farmer and a beef farmer at that, but in my defence I am wholly against modern agriculture and the vast damage it is doing to our health and the health of the planet. I also grow about a third of an acre of organic vegetables and I would estimate about 40% of my meals are vegetarian.
@@ -13,9 +17,7 @@ I am not going to hide the fact that I am a farmer and a beef farmer at that, bu
 So, what is this article about? Cows and why they are so important.
 Cows are getting a lot of flack because of some scientific evidence about methane emissions which I believe are very true. My point is that cows are not to blame, we are!
 
-![cows]
-*The cows are organising*
-{:.blog-image}
+
 
 Cows are supposed to eat grasses and weeds and forage for leaves on trees. With this diet their in-take of natural oils and fibre balances out the proteins they consume and they produce an acceptable amount of gas.  Over the last hundred years agriculture has driven us to breed cattle that are heavier, leaner and require grain to fatten them.
 

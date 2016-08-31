@@ -2,33 +2,43 @@
 
 
 body {
-  section {
-    article.copy {
-      padding: 0;
-      h2 {
-
-      }
-      svg.grass, img {
-        width: 60%;
-        float: right;
-        margin-left: $generic-spacing;
-
-        &:nth-of-type(odd) {
-          float: left;
-          width: 45%;
-          margin-right: $generic-spacing;
-          margin-left: -$generic-spacing;
+  .container {
+    section {
+      article.copy {
+        padding: 0;
+        h1, h2, h3, h4, p, a {
+          font-size: $medium-font;
         }
-
-        &:nth-of-type(even) {
-          float: right;
-          width: 45%;
-          margin-left: $generic-spacing;
-          margin-right: -$generic-spacing;
+        h1 {
+          font-weight: bold;
         }
-      }
-      p {
+        h2 {
+          font-style: italic;
+        }
+        svg.grass, img {
+          // position: absolute;
+          // left: 0;
+          // top: 160px;
+          width: 550px;
+          height: 550px;
+        }
+        //   &:nth-of-type(odd) {
+        //     float: left;
+        //     width: 45%;
+        //     margin-right: $generic-spacing;
+        //     margin-left: -$generic-spacing;
+        //   }
 
+        //   &:nth-of-type(even) {
+        //     float: right;
+        //     width: 45%;
+        //     margin-left: $generic-spacing;
+        //     margin-right: -$generic-spacing;
+        //   }
+        // }
+        // p {
+
+        // }
       }
     }
   }

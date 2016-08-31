@@ -4,6 +4,9 @@
 .main-content {
   max-width: $content-width;
   color: $primary-text-colour;
+  &.fixed-nav {
+    padding-top: $header-height;
+  }
 }
 
 @include media-query($tablet) {
