@@ -27,7 +27,7 @@ body.shop, body.about {
           p {
             visibility: hidden;
           }
-          transition-property: background-color visibility;
+          transition-property: background-color;
           transition-duration: 0.15s;
           transition-timing-function: linear;
         }
@@ -54,7 +54,7 @@ body.shop, body.about {
 
         &.product-beef {
           @include background-image-cover("/images/shop-beef.jpg");
-          margin-right: 4px;
+          margin-right: $small-spacing;
         }
 
         a {

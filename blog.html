@@ -5,14 +5,10 @@ permalink: /blog/
 icon: grass-three.svg
 priority: 3
 body-class: blog
-<!-- children:
-  - Articles
-  - Photos
-  - Videos -->
 ---
 
 <section class="blog-wall">
-  <header class="blog-wall-header">
+  <!-- <header class="blog-wall-header">
     <ul class="option-list">
       <li class="active"><a href="{{ site.base_url }}/blog">All</a></li>
       {% for category in site.categories %}
@@ -23,7 +19,7 @@ body-class: blog
       <li class="active">Thumbnails</li>
       <li>Full Size</li>
     </ul>
-  </header>
+  </header> -->
   {% for post in site.posts %}
   <article class="blog-brick" style="background-image: url({{ post.coverPhoto }});">
     <a href="{{ post.url }}">
