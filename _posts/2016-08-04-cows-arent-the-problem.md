@@ -5,10 +5,10 @@ date: 2016-08-04 16:42:00:00 +0100
 categories: article
 coverPhoto: /images/cowmeeting.jpg
 ---
-
+<!--
 ![cows]
 *The cows are organising*
-{:.blog-image}
+{:.blog-image} -->
 
 I was spurred into a debate on the Quickcrop facebook page when they posted a graphic illustrating that an acre can feed twenty average families but only one cow.  I argued the case for the cow and I’m pretty sure I won hands down! After challenging me to a fist fight, Andrew came to his senses and asked me to write an article for their blog, so here goes...
 

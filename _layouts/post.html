@@ -4,9 +4,12 @@ body-class: blog
 ---
 <article class="blog-post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="blog-header">
-    <h1 class="blog-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="blog-post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+  <header class="blog-header blog-cover-photo" style="background-image: url({{ site.baseurl }}{{ page.coverPhoto }})">
+
+    <div class="gel">
+      <h1 class="blog-title" itemprop="name headline">{{ page.title }}</h1>
+      <p class="blog-post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    </div>
   </header>
 
   <div class="blog-post-content" itemprop="articleBody">
