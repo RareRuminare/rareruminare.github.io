@@ -128,10 +128,6 @@ body.blog {
         p.blog-post-meta {
           padding-top: 0;
         }
-        time {
-          // font-size: $medium-font;
-        }
-
       }
       .blog-cover-photo {
         background-position: center center;
@@ -148,16 +144,16 @@ body.blog {
       font-size: 18px;
     }
 
-    p:nth-of-type(3n+1) {
-      &::first-letter {
-        float: left;
-        font-size: 3em;
-        line-height: 53px;
-        margin-top: -1px;
-        padding-right: 4px;
-        padding-left: 3px;
-      }
-    }
+    // p:nth-of-type(3n+1) {
+    //   &::first-letter {
+    //     float: left;
+    //     font-size: 3em;
+    //     line-height: 53px;
+    //     margin-top: -1px;
+    //     padding-right: 4px;
+    //     padding-left: 3px;
+    //   }
+    // }
 
     .blog-image {
       &:nth-of-type(odd) {
