@@ -2,46 +2,6 @@
 
 body.blog {
 
-  section {
-    .blog-wall-header {
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      ul.option-list {
-        list-style: none;
-        display: flex;
-        margin: 0;
-        margin-bottom: $generic-spacing;
-        padding: 0;
-        li {
-          &:after  {
-            content: "/";
-            padding-left: 3px;
-            padding-right: 3px;
-          }
-
-          &:last-child:after {
-            content: ""
-          }
-
-          &.active {
-            font-weight: bold;
-          }
-
-          a {
-            padding: 1px;
-            &:hover  {
-              color: $primary-text-colour;
-              font-weight: bold;
-            }
-          }
-
-        }
-      }
-    }
-  }
-
   section.blog-wall {
 
     display: flex;
@@ -146,27 +106,33 @@ body.blog {
 
     .gel {
       position: absolute;
-      background-color: rgba(0,0,0,0.4);
       top: 0;
       bottom: 0;
       left: 0;
       right: 0;
 
-      h1.blog-title, p.blog-post-meta {
-        color: white;
-        padding: $generic-spacing;
+      header {
+
+        background-color: $primary-colour-alpha;
+
+        h1.blog-title, p.blog-post-meta {
+          color: white;
+          padding: $generic-spacing;
+        }
+
+        h1.blog-title {
+          padding-bottom: 0;
+          font-size: $big-font;
+        }
+
+        p.blog-post-meta {
+          padding-top: 0;
+        }
+        time {
+          // font-size: $medium-font;
+        }
+
       }
-
-      h1.blog-title {
-        padding-bottom: 0;
-        font-size: $big-font;
-      }
-
-      p.blog-post-meta {
-        padding-top: 0;
-      }
-
-
       .blog-cover-photo {
         background-position: center center;
         background-size: cover;
@@ -184,7 +150,12 @@ body.blog {
 
     p:nth-of-type(3n+1) {
       &::first-letter {
-          font-size: 200%;
+        float: left;
+        font-size: 3em;
+        line-height: 53px;
+        margin-top: -1px;
+        padding-right: 4px;
+        padding-left: 3px;
       }
     }
 

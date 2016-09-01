@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cost effective low maintenance electric fencing for cattle
-date: 2016-05-12 17:48:34:09 +0100
+date: 2016-08-12 17:48:34:09 +0100
 categories: article
 coverPhoto: /images/grass.jpg
 permalink: /blog/cost-effective-low-maintenance-electric-fencing/
