@@ -11,10 +11,9 @@ body {
           display: none;
           visibility: hidden;
         }
-        .navbar-brand {
-          display: block;
-          visibility: visible;
-        }
+      }
+      nav.mobile-nav {
+        display: none;
       }
     }
   }
@@ -24,7 +23,6 @@ body {
 
     nav.mobile-navbar {
       display: none;
-      background-color: $primary-contrast-colour;
     }
 
     nav.navbar-brand {
@@ -51,7 +49,7 @@ body {
 
     nav.navbar {
 
-      transition-property: height;
+      transition-property: height top;
       transition-duration: 2s;
       transition-timing-function: linear;
 
@@ -140,6 +138,32 @@ body {
       }
     }
 
+    nav.mobile-nav {
+      position: absolute;
+      right: 0;
+      top: 0;
+      display: none;
+
+      .hamburger {
+        float: right;
+        height: $header-height / 2;
+        width: $header-height / 2;
+        svg {
+          display: block;
+          position: absolute;
+          right: 50%;
+          top: 50%;
+          width: $header-height / 4;
+          height: $header-height / 4;
+        }
+      }
+      &.open {
+        .hamburger {
+          display: none;
+        }
+      }
+    }
+
     &.fixed-nav {
       position: fixed;
       top: 0;
@@ -177,6 +201,56 @@ body {
           }
         }
       }
+      nav.mobile-nav {
+        .hamburger {
+          svg {
+            right: 50%;
+            top: 25%
+          }
+        }
+      }
     }
   }
+
+  @media (max-width: $tablet) and (orientation: portrait) {
+    nav.navbar {
+      visibility: hidden;
+    }
+    body {
+      header.top-header {
+        nav.mobile-nav {
+          display: block;
+        }
+      }
+    }
+  }
+
+  // @include media-query($tablet) {
+  //   header.top-header {
+  //     position: fixed;
+  //     width: 100%;
+  //     bottom: auto;
+  //     height: $header-height;
+  //     border: none;
+  //     border-bottom: $structural-border;
+
+  //     nav.navbar {
+  //       display: none;
+  //     }
+  //     nav.mobile-navbar {
+  //       display: block;
+  //       a {
+  //         display: block;
+  //         height: 100%;
+  //         width: 240px;
+  //         p, svg {
+  //           height: $header-height;
+  //           width: 100%;
+  //           display: inline-block;
+  //           vertical-align: middle;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 }

@@ -9,9 +9,3 @@
   }
   padding-bottom: $header-height;
 }
-
-@include media-query($tablet) {
-  .main-content {
-    padding: $generic-spacing;
-  }
-}

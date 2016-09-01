@@ -8,26 +8,13 @@ body-class: blog
 ---
 
 <section class="blog-wall">
-  <!-- <header class="blog-wall-header">
-    <ul class="option-list">
-      <li class="active"><a href="{{ site.base_url }}/blog">All</a></li>
-      {% for category in site.categories %}
-      <li><a href="{{ site.base_url}}/blog/">{{ category | first | capitalize }}</a></li>
-      {% endfor %}
-    </ul>
-    <ul class="option-list">
-      <li class="active">Thumbnails</li>
-      <li>Full Size</li>
-    </ul>
-  </header> -->
   {% for post in site.posts %}
   <article class="blog-brick" style="background-image: url({{ post.coverPhoto }});">
     <a href="{{ post.url }}">
-    <header>
-      <p class="blog-date">Date: {{ post.date | date: "%B %-d %Y" }}</h2>
-      <p class="blog-title">{{ post.title }}</p>
-      <p class="blog-categories">{{ post.categories }}</p>
-    </header>
+      <header>
+        <h2 class="blog-title">{{ post.title }}</h2>
+        <p class="blog-date">{{ post.date | date: "%B %-d %Y" }}</h2>
+      </header>
     </a>
   </article>
   {% endfor %}
