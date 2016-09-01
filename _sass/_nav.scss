@@ -179,45 +179,4 @@ body {
       }
     }
   }
-
-  @media (max-width: $tablet) and (orientation: landscape) {
-    header.top-header {
-      z-index: 1000;
-    }
-  }
-
-  @media (max-width: $phone) {
-    header.top-header {
-      z-index: 1000;
-    }
-  }
-
-  @include media-query($tablet) {
-    header.top-header {
-      position: fixed;
-      width: 100%;
-      bottom: auto;
-      height: $header-height;
-      border: none;
-      border-bottom: $structural-border;
-
-      nav.navbar {
-        display: none;
-      }
-      nav.mobile-navbar {
-        display: block;
-        a {
-          display: block;
-          height: 100%;
-          width: 240px;
-          p, svg {
-            height: $header-height;
-            width: 100%;
-            display: inline-block;
-            vertical-align: middle;
-          }
-        }
-      }
-    }
-  }
 }
