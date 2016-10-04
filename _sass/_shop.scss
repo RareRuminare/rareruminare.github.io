@@ -10,6 +10,7 @@ body.shop, body.about {
     justify-content: center;
     margin: 0 auto;
     padding-top: 0;
+
     article {
       padding: 0;
       text-align: center;
@@ -54,17 +55,43 @@ body.shop, body.about {
         &.product-beef {
           @include background-image-cover("/images/shop-beef.jpg");
           margin-right: $small-spacing;
+          margin-bottom: $generic-spacing;
         }
 
-        a {
-          font-weight: bold;
-          &:hover {
-            color: $primary-text-colour;
-            cursor: pointer;
-            text-decoration: underline;
+        .block-link {
+          background-color: $primary-colour-alpha;
+          text-decoration: none;
+          p {
+            position: absolute;
+            visibility: visible;
+            top: 47%;
+            width: 100%;
+            margin: 0 auto;
+            color: white;
+            font-size: $medium-font;
+            font-weight: normal;
           }
         }
       }
     }
+
+    @media (max-width: $tablet) {
+
+    article {
+      &.product {
+        height: 273px;
+        a.block-link {
+          color: $primary-text-colour;
+          cursor: pointer;
+          text-decoration: underline;
+        }
+        &.product-beef {
+          margin-right: 0;
+        }
+      }
+    }
+
+    }
+
   }
 }

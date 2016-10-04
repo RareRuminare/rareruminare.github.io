@@ -24,13 +24,18 @@ footer {
 
 footer.social-footer {
   padding: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: $social-icon-size * 2;
   ul {
-    position: fixed;
+    // position: fixed;
     display: flex;
     list-style: none;
-    bottom: $generic-spacing;
-    right: $generic-spacing * 2;
+    justify-content: flex-end;
     padding: 0;
+    padding-bottom: $generic-spacing;
+    padding-right: $generic-spacing * 2;
     li {
       padding: 0;
       padding-left: $generic-spacing / 2;
@@ -45,7 +50,14 @@ footer.social-footer {
       }
     }
   }
+
+  @media (max-width: $tablet) {
+    position: static;
+  }
 }
+
+
+
 
 body.home {
   footer.social-footer, figure.watermark {
