@@ -98,6 +98,6 @@ Tools Needed
 : Hammer
 
 
-[galvanised-wire]: /images/whitecow.jpg
-[posts]: /images/whitecow.jpg
-[handle]: /images/whitecow.jpg
+[galvanised-wire]: /images/cowmeeting-square.jpg
+[posts]: /images/cowmeeting-square.jpg
+[handle]: /images/cowmeeting-square.jpg

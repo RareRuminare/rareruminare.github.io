@@ -39,20 +39,19 @@ body.blog {
         padding: 0;
         margin: 0;
         color: $primary-contrast-text-colour;
-        // transition-property: background-color;
-        // transition-duration: 0.15s;
-        // transition-timing-function: linear;
-        // &:hover {
-        //   color: $primary-contrast-text-colour;
-        //   header {
-        //     height: 100%;
-        //   }
-        // }
+        &:hover {
+          color: $primary-contrast-text-colour;
+          header {
+            background-color: $primary-colour-alpha;
+            height: 100%;
+          }
+        }
       }
 
       header {
+        transition: $background-transition;
         height: 100%;
-        background-color: $primary-colour-alpha;
+        background-color: $primary-colour;
         .blog-title, .blog-date {
           padding: $generic-spacing / 2;
         }
@@ -91,7 +90,7 @@ body.blog {
     background-size: cover;
     height: $content-width;
     width: $content-width;
-    margin-bottom: $generic-spacing * 2;
+    margin-bottom: $generic-spacing;
 
     .gel {
       position: absolute;
@@ -131,23 +130,18 @@ body.blog {
 
   .blog-post-content {
 
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: bold;
+    }
+
     p {
       font-size: 18px;
     }
 
     .blog-image {
-      &:nth-of-type(odd) {
-        float: left;
-        width: 45%;
-        margin-right: $generic-spacing;
-        margin-left: -$generic-spacing;
-      }
-
-      &:nth-of-type(even) {
-        float: right;
-        width: 45%;;
-        margin-left: $generic-spacing;
-        margin-right: -$generic-spacing;
+      img {
+        width: $content-width;
+        height: $content-width;
       }
     }
   }

@@ -59,7 +59,11 @@ body.shop, body.about {
         }
 
         .block-link {
-          background-color: $primary-colour-alpha;
+          transition: $background-transition;
+          background-color: $primary-colour;
+          &:hover, &:active {
+            background-color: $primary-colour-alpha
+          }
           text-decoration: none;
           p {
             position: absolute;

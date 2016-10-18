@@ -32,4 +32,4 @@ Please email clive@rareruminare.com or phone 087 641 8104. Due to the limited an
 
 ----------------------
 
-[cover-image]: /images/cowmeeting-square.jpeg
+[cover-image]: /images/cowmeeting-square.jpg
