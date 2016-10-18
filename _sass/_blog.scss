@@ -90,7 +90,7 @@ body.blog {
     background-size: cover;
     height: $content-width;
     width: $content-width;
-    margin-bottom: $generic-spacing;
+    margin-bottom: $generic-spacing * 2;
 
     .gel {
       position: absolute;
