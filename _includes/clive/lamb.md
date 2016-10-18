@@ -1,7 +1,7 @@
-# 20kg Lamb Box
-
 ![cover-image]
 {:.copy-image}
+
+# 20kg Lamb Box
 
 ### What's in the box?
 
@@ -29,4 +29,4 @@ Please email clive@rareruminare.com or phone 087 641 8104. Due to the limited an
 
 Please email clive@rareruminare.com or phone 087 641 8104. Due to the limited and seasonal nature of this product, supply is limited.
 
-[cover-image]: /images/lamb.jpg
+[cover-image]: /images/lamb-square.jpg
