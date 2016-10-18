@@ -1,5 +1,8 @@
 # 20kg Lamb Box
 
+![cover-image]
+{:.copy-image}
+
 ### What's in the box?
 
 * A selection of some of the typical steaks: striploin, fillet, ribeye, etc.
@@ -25,3 +28,5 @@ Please email clive@rareruminare.com or phone 087 641 8104. Due to the limited an
 ### How is the beef prepared?
 
 Please email clive@rareruminare.com or phone 087 641 8104. Due to the limited and seasonal nature of this product, supply is limited.
+
+[cover-image]: /images/lamb.jpg

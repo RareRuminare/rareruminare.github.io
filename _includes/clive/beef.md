@@ -1,5 +1,5 @@
 
-![posts]
+![cover-image]
 {:.copy-image}
 
 # 20kg Beef Box
@@ -32,4 +32,4 @@ Please email clive@rareruminare.com or phone 087 641 8104. Due to the limited an
 
 ----------------------
 
-[posts]: /images/whitecow.jpg
+[cover-image]: /images/cowmeeting-square.jpeg

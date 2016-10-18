@@ -27,22 +27,22 @@ body.blog {
         margin-right: $small-spacing;
       }
 
-      &:nth-of-type(2) {
-        height: 273px;
-        margin-top: 0px;
-      }
+      // &:nth-of-type(2) {
+      //   height: 273px;
+      //   margin-top: 0px;
+      // }
 
-      &:nth-of-type(even) {
-        margin-top: -276px;
-      }
+      // &:nth-of-type(even) {
+      //   margin-top: -276px;
+      // }
 
-      &:nth-of-type(1), &:nth-of-type(2) {
-        margin-top: 0px;
-      }
+      // &:nth-of-type(1), &:nth-of-type(2) {
+      //   margin-top: 0px;
+      // }
 
-      &:nth-of-type(5) {
-        height: 273px;
-      }
+      // &:nth-of-type(5) {
+      //   height: 273px;
+      // }
 
       a {
         display: block;
