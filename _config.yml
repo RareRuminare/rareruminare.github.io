@@ -21,3 +21,6 @@ port: 5000
 markdown: kramdown
 # permalink: none
 permalink: /blog/:title
+
+sass:
+    style: compressed
