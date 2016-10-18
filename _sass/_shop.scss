@@ -21,31 +21,31 @@ body.shop, body.about {
         height: 550px;
         padding: 0;
 
-        .block-link {
-          background-color: transparent;
-          text-decoration: none;
-          p {
-            visibility: hidden;
-          }
-          transition-property: background-color;
-          transition-duration: 0.15s;
-          transition-timing-function: linear;
-        }
+        // .block-link {
+        //   background-color: transparent;
+        //   text-decoration: none;
+        //   p {
+        //     visibility: hidden;
+        //   }
+        //   transition-property: background-color;
+        //   transition-duration: 0.15s;
+        //   transition-timing-function: linear;
+        // }
 
-        .block-link:hover, .block-link:active {
-          background-color: $primary-colour-alpha;
-          text-decoration: none;
-          p {
-            position: absolute;
-            visibility: visible;
-            top: 47%;
-            width: 100%;
-            margin: 0 auto;
-            color: white;
-            font-size: $medium-font;
-            font-weight: normal;
-          }
-        }
+        // .block-link:hover, .block-link:active {
+        //   background-color: $primary-colour-alpha;
+        //   text-decoration: none;
+        //   p {
+        //     position: absolute;
+        //     visibility: visible;
+        //     top: 47%;
+        //     width: 100%;
+        //     margin: 0 auto;
+        //     color: white;
+        //     font-size: $medium-font;
+        //     font-weight: normal;
+        //   }
+        // }
 
         &.product-lamb {
           @include background-image-cover("/images/shop-lamb.jpg");
