@@ -70,14 +70,21 @@ body.blog {
     }
   }
 
-  @media (max-width: $tablet) and (orientation: portrait) {
+  @media (max-width: $tablet) {
     section.blog-wall {
-      width: 100%;
       article.blog-brick {
+        height: $content-width / 2;
         width: 100%;
+        margin-right: 0 !important;
+        a {
+          header {
+            background-color: $primary-colour-alpha;
+          }
+        }
       }
     }
   }
+
 }
 
 .blog-post {
@@ -139,9 +146,26 @@ body.blog {
     }
 
     .blog-image {
+      margin-top: 2 * $generic-spacing;
+      margin-bottom: 2 * $generic-spacing;
       img {
         width: $content-width;
         height: $content-width;
+      }
+    }
+  }
+
+   @media (max-width: $tablet) {
+    .blog-header {
+      width: 100%;
+      height: $content-width / 2;
+    }
+    .blog-post-content {
+      .blog-image {
+        img {
+          width: 100%;
+          height: auto;
+        }
       }
     }
   }

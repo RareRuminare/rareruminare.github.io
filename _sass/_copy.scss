@@ -16,29 +16,16 @@ body {
           font-style: italic;
         }
         svg.grass, img {
-          // position: absolute;
-          // left: 0;
-          // top: 160px;
-          width: 550px;
-          height: 550px;
+          width: $content-width;
+          height: $content-width;
         }
-        //   &:nth-of-type(odd) {
-        //     float: left;
-        //     width: 45%;
-        //     margin-right: $generic-spacing;
-        //     margin-left: -$generic-spacing;
-        //   }
 
-        //   &:nth-of-type(even) {
-        //     float: right;
-        //     width: 45%;
-        //     margin-left: $generic-spacing;
-        //     margin-right: -$generic-spacing;
-        //   }
-        // }
-        // p {
-
-        // }
+        @media (max-width: $tablet){
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
       }
     }
   }
