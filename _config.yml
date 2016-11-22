@@ -13,6 +13,13 @@ social:
     url: "https://www.facebook.com/therareruminare/"
     icon: "/images/facebook.svg"
 
+contact:
+  tel:
+    num: +353876418104
+    display: 087 641 8104
+
+  email: clive@rareruminare.com
+
 # deployment
 host: 0.0.0.0
 port: 5000

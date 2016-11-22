@@ -19,6 +19,13 @@ body {
           width: $content-width;
           height: $content-width;
         }
+        a {
+          color: $link-colour;
+          border-bottom: $link-border;
+          &:hover {
+            border-bottom: $link-border-hover;
+          }
+        }
 
         @media (max-width: $tablet){
           img {

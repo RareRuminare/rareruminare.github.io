@@ -18,18 +18,12 @@ The whole box is portioned, bagged, clearly labelled and freezer-ready.
 
 Price: €280 (€14 per kg) including delivery.
 
-------------------------
+# How to order?
 
-## How to order?
+Please email {% include email.md %} or phone {% include phone.md %}. Due to the limited and seasonal nature of this product, supply is limited.
 
-Please email clive@rareruminare.com or phone 087 641 8104. Due to the limited and seasonal nature of this product, supply is limited.
+# Further reading
 
-------------------------
-
-## How is the beef prepared?
-
-Please email clive@rareruminare.com or phone 087 641 8104. Due to the limited and seasonal nature of this product, supply is limited.
-
-----------------------
+You can find out more about how or animals live and our beef is prepared [here](/blog/our-beef)
 
 [cover-image]: /images/beef-cows-square.jpg

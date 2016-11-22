@@ -3,7 +3,7 @@ layout: post
 title: Cows aren’t the problem, agriculture is!
 date: 2016-08-04 16:42:00:00 +0100
 categories: article
-coverPhoto: /images/brisket.jpg
+coverPhoto: /images/cow-diagonal.jpg
 ---
 <!--
 ![cows]
