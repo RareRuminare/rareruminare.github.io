@@ -4,8 +4,13 @@
 .main-content {
   max-width: $content-width;
   color: $primary-text-colour;
-  &.fixed-nav {
-    padding-top: $header-height;
-  }
   padding-bottom: $header-height;
+}
+
+@media (min-width: $tablet) {
+  .main-content {
+    &.fixed-nav {
+      padding-top: $header-height;
+    }
+  }
 }

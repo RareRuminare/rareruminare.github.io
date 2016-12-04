@@ -8,8 +8,8 @@ body {
     header.top-header {
       nav.navbar {
         .navbar-item {
-          display: none;
-          visibility: hidden;
+          // display: none;
+          // visibility: hidden;
         }
       }
       nav.mobile-nav {
@@ -20,205 +20,157 @@ body {
 
   header.top-header {
     width: 100%;
+  }
 
-    nav.mobile-navbar {
-      display: none;
-    }
-
-    nav.navbar-brand {
-      height: $header-height;
-      width: $navbar-brand-width;
-      position: absolute;
-      top: 0;
-      left: 0;
-      a {
-        padding: $generic-spacing;
-        padding-top: 0;
-        color: $primary-text-colour;
-        img.navbar-icon {
-          height: 90px;
-          width: auto;
-        }
-        svg {
-          height: $header-height;
-          display: inline-block;
-          vertical-align: middle;
-        }
+  nav.navbar-brand {
+    height: $header-height;
+    width: $navbar-brand-width;
+    position: absolute;
+    top: 0;
+    left: 0;
+    a {
+      padding: $generic-spacing;
+      padding-top: 0;
+      color: $primary-text-colour;
+      img.navbar-icon {
+        height: 90px;
+        width: auto;
+      }
+      svg {
+        height: $header-height;
+        display: inline-block;
+        vertical-align: middle;
       }
     }
+  }
 
-    nav.navbar {
+  nav.navbar {
 
-      // transition-property: height top;
-      // transition-duration: 2s;
-      // transition-timing-function: linear;
+    .navbar-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      text-align: left;
+      width: 100%;
+      height: 100%;
 
-      .navbar-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        text-align: left;
-        width: 100%;
-        height: 100%;
-        .navbar-sub-list {
-          list-style: none;
-          padding: 0;
-          margin: 0;
-          visibility: hidden;
-          padding-top: 2 * $generic-spacing;
-          li.navbar-item {
-            height: 100%;
-            padding-left: $generic-spacing;
-            a.navbar-link {
-              color: $primary-text-colour;
-              cursor: pointer;
-              border: none;
-              padding: 0;
-              &:hover {
-                font-weight: bold;
-              }
-            }
-            &.active-nav {
-              a.navbar-link {
-                font-weight: bold;
-              }
-            }
-          }
+      .active-nav, .navbar-item:hover, .navbar-item:active {
+        a.navbar-link {
+          border-bottom: $structural-border;
+        }
+        ul.navbar-sub-list {
+          //todo -> this should be on in the appropriate cases.
+          visibility: visible;
+        }
+      }
+
+      .navbar-item {
+        margin: 0 auto;
+        font-size: $medium-font;
+        width: $content-width / 3;
+        a.navbar-link {
+          padding: $generic-spacing;
+          padding-bottom: $generic-spacing / 2;
+          color: $primary-text-colour;
         }
 
-        .active-nav, .navbar-item:hover, .navbar-item:active {
-          a.navbar-link {
-            border-bottom: $structural-border;
-          }
-          ul.navbar-sub-list {
-            //todo -> this should be on in the appropriate cases.
-            visibility: visible;
-          }
-        }
-
-        .navbar-item {
-          margin: 0 auto;
-          font-size: $medium-font;
-          width: $content-width / 3;
-          a.navbar-link {
-            padding: $generic-spacing;
-            padding-bottom: $generic-spacing / 2;
-            color: $primary-text-colour;
-          }
-
-          &.navbar-option {
-            padding: 2 * $generic-spacing;
-            padding-left: 0;
-            padding-right: 0;
-            &:nth-child(1) {
-              text-align: left;
-              a {
-                padding-left: 0;
-              }
-            }
-            &:nth-child(2) {
-              text-align: center;
-            }
-            &:nth-child(3) {
-              text-align: right;
-              a {
-                padding-right: 0;
-              }
+        &.navbar-option {
+          padding: 2 * $generic-spacing;
+          padding-left: 0;
+          padding-right: 0;
+          &:nth-child(1) {
+            text-align: left;
+            a {
+              padding-left: 0;
             }
           }
-        }
-      }
-    }
-
-    nav.navbar-brand-small {
-      position: relative;
-      display: none;
-      a.block-link, a.block-link:hover {
-        display: hidden;
-      }
-    }
-
-    nav.mobile-nav {
-      position: absolute;
-      right: 0;
-      top: 0;
-      display: none;
-
-      .hamburger {
-        float: right;
-        height: $header-height / 2;
-        width: $header-height / 2;
-        svg {
-          display: block;
-          position: absolute;
-          right: 50%;
-          top: 50%;
-          width: $header-height / 4;
-          height: $header-height / 4;
-        }
-      }
-      &.open {
-        .hamburger {
-          display: none;
-        }
-      }
-    }
-
-    &.fixed-nav {
-      position: fixed;
-      top: 0;
-      border-bottom: $structural-border;
-      height: $fixed-nav-height;
-      background-color: rgba(255,255,255,0.9);
-      z-index: 1001;
-      nav.navbar-brand-small {
-        display: block;
-        position: relative;
-        float: left;
-        height: $fixed-nav-height;
-        width: $fixed-nav-height;
-        svg {
-          display: block;
-          position: absolute;
-          left: 50%;
-          top: 25%;
-          width: $fixed-nav-height / 2;
-          height: $fixed-nav-height / 2;
-        }
-      }
-      nav.navbar-brand {
-        display: none;
-      }
-      nav.navbar {
-        height: $fixed-nav-height;
-        .navbar-list {
-          .navbar-item {
-            padding-top: $generic-spacing / 2;
-            padding-bottom: 0;
+          &:nth-child(2) {
+            text-align: center;
           }
-        }
-      }
-      nav.mobile-nav {
-        .hamburger {
-          svg {
-            right: 50%;
-            top: 25%
+          &:nth-child(3) {
+            text-align: right;
+            a {
+              padding-right: 0;
+            }
           }
         }
       }
     }
   }
 
-  @media (max-width: $tablet) and (orientation: portrait) {
-    nav.navbar {
-      visibility: hidden;
+  nav.navbar-brand-small {
+    position: relative;
+    display: none;
+    a.block-link, a.block-link:hover {
+      display: hidden;
     }
-    body {
-      header.top-header {
-        nav.mobile-nav {
+  }
+
+
+  @media (max-width: $tablet) and (orientation: portrait) {
+
+  nav.navbar-brand {
+    left: -10px;
+  }
+
+  nav.navbar {
+    position: absolute;
+    padding-bottom: $generic-spacing;
+    top: $header-height;
+    left: 0;
+    right: 0;
+    .navbar-list {
+      padding: 0;
+      .navbar-item.navbar-option {
+        padding: 0;
+      }
+    }
+  }
+
+  .main-content {
+    margin-top: 1.5 * $header-height;
+  }
+
+  }
+
+  @media (min-width: $tablet) {
+
+    header.top-header {
+       &.fixed-nav {
+        position: fixed;
+        top: 0;
+        border-bottom: $structural-border;
+        height: $fixed-nav-height;
+        background-color: rgba(255,255,255,0.9);
+        z-index: 1001;
+        nav.navbar-brand-small {
           display: block;
+          position: relative;
+          float: left;
+          height: $fixed-nav-height;
+          width: $fixed-nav-height;
+          svg {
+            display: block;
+            position: absolute;
+            left: 50%;
+            top: 25%;
+            width: $fixed-nav-height / 2;
+            height: $fixed-nav-height / 2;
+          }
+        }
+        nav.navbar-brand {
+          display: none;
+        }
+        nav.navbar {
+          height: $fixed-nav-height;
+          .navbar-list {
+            .navbar-item {
+              padding-top: $generic-spacing / 2;
+              padding-bottom: 0;
+            }
+          }
         }
       }
     }
