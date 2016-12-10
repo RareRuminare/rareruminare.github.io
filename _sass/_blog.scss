@@ -73,9 +73,11 @@ body.blog {
   @media (max-width: $tablet) {
     section.blog-wall {
       article.blog-brick {
-        height: $content-width / 2;
-        width: 100%;
+        max-width: 100%;
+        width: 90vw;
+        height: 90vw;
         margin-right: 0 !important;
+        margin-bottom: $generic-spacing;
         a {
           header {
             background-color: $primary-colour-alpha;
@@ -157,15 +159,20 @@ body.blog {
 
    @media (max-width: $tablet) {
     .blog-header {
-      width: 100%;
-      height: $content-width / 2;
+      max-width: 100%;
+      width: 90vw;
+      height: 90vw;
     }
+
+
     .blog-post-content {
       .blog-image {
         img {
-          width: 100%;
-          height: auto;
+          max-width: 100%;
+          width: 90vw;
+          height: 90vw;
         }
+
       }
     }
   }

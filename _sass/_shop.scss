@@ -57,8 +57,8 @@ body.shop, body.about {
 
     article {
       &.product {
-        width: 100%;
-        height: $content-width / 2;
+        width: 90vw;
+        height: 90vw;
         a.block-link {
           color: $primary-text-colour;
           cursor: pointer;
