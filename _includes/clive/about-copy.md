@@ -10,12 +10,8 @@ We use a mix of traditional breeds such as Hereford, Shorthorn and Angus and wit
 
 We manage the farm as an entire ecosystem that the farmed animals are just one element of. The soil and soil life is of equal concern as we know healthy biological soil grows mineral-rich diverse grass pastures. This in-turn grows healthy animals that produce nutrient rich healthy meat and this after all is our goal!
 
-<!-- ------
-
-Clive Bright is an organic farmer from Ballymote, Co. Sligo with a keen interest in Ecology and Soil biology. His main farming enterprises are raising 100% grass fed Organic beef and lamb which he direct sells under the company name Rare Ruminare.
-
 ***Clive Bright*** \\
 Email: {% include email.md %} \\
-Mobile: {% include phone.md %} -->
+Mobile: {% include phone.md %}
 
 
