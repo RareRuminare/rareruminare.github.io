@@ -14,8 +14,54 @@ body.home {
     margin: 0 auto;
 
     .landing-slideshow {
-      .grass-img {
+
+      .rslides {
+        position: relative;
+        list-style: none;
+        overflow: hidden;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        }
+
+      .rslides li {
+        -webkit-backface-visibility: hidden;
+        position: absolute;
+        display: none;
+        width: 100%;
+        left: 0;
+        top: 0;
+        }
+
+      .rslides li:first-child {
+        position: relative;
+        display: block;
+        float: left;
+      }
+
+      .rslides img {
+        display: block;
+        height: auto;
+        float: left;
+        // float: none;
         height: $content-width;
+        width: $content-width;
+      }
+
+      @media (max-width: $tablet) {
+        .rslides {
+          // margin-top: $generic-spacing
+          top: $generic-spacing * 2;
+          max-width: 100%;
+          width: 90vw;
+          height: 90vw;
+          margin: 0 auto;
+          img {
+            max-width: 100%;
+            width: 90vw;
+            height: 90vw;
+          }
+        }
       }
     }
   }

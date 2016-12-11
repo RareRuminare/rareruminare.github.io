@@ -20,6 +20,10 @@ footer {
     font-size: $medium-font;
     line-height: $medium-font + 2px;
   }
+
+  @media (max-width: $tablet) {
+  }
+
 }
 
 footer.social-footer {

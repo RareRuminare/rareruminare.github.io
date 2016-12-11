@@ -120,16 +120,25 @@ body {
 
   @media (max-width: $tablet) and (orientation: portrait) {
 
+    header.top-header {
+      width: 100%;
+      height: $header-height + 50px;
+      // position: absolute;
+      top: 0;
+    }
+
     nav.navbar-brand {
       left: -10px;
     }
 
     nav.navbar {
-      position: absolute;
+      // position: absolute;
+
       padding-bottom: $generic-spacing;
-      top: $header-height;
-      left: 0;
-      right: 0;
+      // top: $header-height;
+      // left: 0;
+      // right: 0;
+      margin-top: $header-height;
       .navbar-list {
         padding: 0;
         .navbar-item.navbar-option {

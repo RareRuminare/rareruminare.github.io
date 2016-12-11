@@ -22,7 +22,7 @@
   position: relative;
   display: block;
   float: left;
-  }
+}
 
 .rslides img {
   display: block;
@@ -30,4 +30,4 @@
   float: left;
   width: 100%;
   border: 0;
-  }
+}
