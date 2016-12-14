@@ -154,9 +154,9 @@ body {
   }
 
   @media (max-width: $tablet) and (orientation: landscape) {
-    // .main-content {
-    //   margin-top: $header-height;
-    // }
+    .main-content {
+      margin-top: $header-height;
+    }
     nav.navbar.container {
       margin-right: 3.5 * $generic-spacing;
       position: absolute;
