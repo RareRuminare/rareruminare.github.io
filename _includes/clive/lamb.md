@@ -3,37 +3,38 @@
 
 # Whole Lamb Box
 
-Our Lamb is very seasonal and quite limited. They are usually ready in August or early September. The total weight of meat from a whole lamb can vary from 16Kg to 25Kg depending on the breed of the lamb.
+Our lamb is very seasonal and quite limited. It is usually ready in August or early September. The total weight of meat from a whole lamb can vary from 16kg to 25kg depending on the breed of the lamb.
 
-There is some choice and flexibility and with regards to the size and butchering of your lamb.
+There are two options for how your lamb will be butchered.
 
-We suggest two options of how to get your lamb butchered but if your order early you can have it butchered to your specifications.
-
-(A butchered lamb should fit comfortably in large freezer drawer)
-
-You can find out more about how our animals live and the lamb is prepared [here](/blog/our-lamb)
-
-# Standard Chop
+# Option One: Standard Chop
 
 With this option you get a full range of cuts and get to explore many different ways to cook and enjoy your lamb.
 
-* Both hind legs in two roasts top-leg and bottom-leg, totalling four roasts.
-* The two loins: One in loin chops and other in Racks
+## What's in the box?
+
+* Each hind leg in two roasts, top-leg and bottom-leg, totalling four roasts
+* One loin in chops and the other in racks
 * One shoulder in chops and a slow roast
 * The other shoulder together with the belly in mince and stew
 
-This will be portioned and bagged ready for the freezer. Mince and stew will be packed in 0.5kg bags. Chops will be packed four per bag. Roasts will be bagged individually and labelled.
+# Option Two: Family Easy Chop
 
+I have to confess that since having children this is the way I now butcher my own lamb. The end result is a lot of mince that we use for handy shepherds pies and delicious lamb burgers.
 
-# Family Easy Chop
-
-I have to confess since having children this is the way I now butcher my own lamb. The end result is a lot of mince that we use for handy shepherds pies and delicious lamb burgers.
+## What's in the box?
 
 * One hind-leg in two roasts
 * One loin in chops and the other in racks
-* 2-3kg of lamb stew
-* The rest in mince
+* 2-3kg of stewing lamb
+* The remainder in mince
 
-This will be portioned and bagged ready for the freezer. Mince and stew will be packed in 0.5kg bags. Chops will be packed four per bag. Roasts will be bagged individually and labelled.
+The whole box is portioned, bagged, clearly labelled and freezer-ready.
+
+# How to order?
+
+Please email {% include email.md %} or phone {% include phone.md %}. Due to the limited and seasonal nature of this product, supply is limited.
+
+You can find out more about how our animals live and the lamb is prepared [here](/blog/our-lamb).
 
 [cover-image]: /images/clover-hand.jpg
