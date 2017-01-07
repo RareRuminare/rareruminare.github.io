@@ -27,6 +27,17 @@ body {
           }
         }
 
+        ul {
+          margin-left: $generic-spacing;
+          list-style-type: none;
+          li:before {
+            content:"•";
+            font-size:15px;
+            vertical-align: top;
+            padding-right: $generic-spacing / 2;
+          }
+        }
+
         @media (max-width: $tablet){
           img {
             max-width: 100%;
