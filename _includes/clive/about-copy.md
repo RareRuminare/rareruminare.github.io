@@ -1,4 +1,4 @@
-![Some Cows](/images/cowmeeting-square.jpg)
+![Some Cows](/images/cow-meander.jpg)
 
 Our goal here at the Rare Ruminare is to produce the healthiest and best tasting meat possible.
 

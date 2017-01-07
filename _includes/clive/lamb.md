@@ -36,4 +36,4 @@ I have to confess since having children this is the way I now butcher my own lam
 
 This will be portioned and bagged ready for the freezer. Mince and stew will be packed in 0.5kg bags. Chops will be packed four per bag. Roasts will be bagged individually and labelled.
 
-[cover-image]: /images/lamb-square.jpg
+[cover-image]: /images/clover-hand.jpg
