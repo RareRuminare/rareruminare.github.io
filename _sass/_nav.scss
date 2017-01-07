@@ -32,13 +32,15 @@ body {
   }
 
   nav.navbar-brand {
-    height: $header-height;
-    width: $navbar-brand-width;
+    // height: $header-height;
+    // width: $navbar-brand-width;
     position: absolute;
     top: 0;
     left: 0;
     a {
       padding: $generic-spacing;
+      padding-bottom: 0;
+      margin-bottom: $generic-spacing;
       padding-top: 0;
       color: $primary-text-colour;
       img.navbar-icon {
