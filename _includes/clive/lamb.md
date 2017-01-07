@@ -11,6 +11,8 @@ We suggest two options of how to get your lamb butchered but if your order early
 
 (A butchered lamb should fit comfortably in large freezer drawer)
 
+You can find out more about how or animals live and our lamb is prepared [here](/blog/our-lamb)
+
 # Standard Chop
 
 With this option you get a full range of cuts and get to explore many different ways to cook and enjoy your lamb.
@@ -33,9 +35,5 @@ I have to confess since having children this is the way I now butcher my own lam
 * The rest in mince
 
 This will be portioned and bagged ready for the freezer. Mince and stew will be packed in 0.5kg bags. Chops will be packed four per bag. Roasts will be bagged individually and labelled.
-
-# Further reading
-
-You can find out more about how or animals live and our lamb is prepared [here](/blog/our-lamb)
 
 [cover-image]: /images/lamb-square.jpg

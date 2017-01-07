@@ -15,3 +15,24 @@
   }
 }
 
+.bottom-links {
+
+  padding-top: $generic-spacing;
+
+  a, p {
+    float: left;
+  }
+
+  p {
+    padding-left: $generic-spacing;
+    padding-right: $generic-spacing;
+  }
+
+  a {
+    color: $link-colour;
+    border-bottom: $link-border;
+    &:hover {
+      border-bottom: $link-border-hover;
+    }
+  }
+}
