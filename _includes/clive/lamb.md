@@ -11,7 +11,7 @@ We suggest two options of how to get your lamb butchered but if your order early
 
 (A butchered lamb should fit comfortably in large freezer drawer)
 
-You can find out more about how or animals live and our lamb is prepared [here](/blog/our-lamb)
+You can find out more about how our animals live and the lamb is prepared [here](/blog/our-lamb)
 
 # Standard Chop
 

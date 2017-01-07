@@ -18,7 +18,7 @@ The whole box is portioned, bagged, clearly labelled and freezer-ready.
 
 Price: €280 (€14 per kg) including delivery.
 
-You can find out more about how or animals live and our beef is prepared [here](/blog/our-beef)
+You can find out more about how our animals live and the beef is prepared [here](/blog/our-beef)
 
 # How to order?
 
