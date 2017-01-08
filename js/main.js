@@ -15,14 +15,14 @@ $("document").ready(function($) {
     }
   });
 
-  var slideshowTimeout = 5000;
+  var slideshowTimeout = 3000;
 
   var home = $(".home")
 
   if(home) {
     window.setTimeout(function() {
       home.addClass("slides");
-    }, slideshowTimeout)
+    }, slideshowTimeout);
 
     $(".rslides").responsiveSlides({
       auto: true, // Boolean: Animate automatically, true or false
