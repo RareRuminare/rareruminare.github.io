@@ -1,4 +1,4 @@
-![Some Cows](/images/cow-meander.jpg)
+![Some of our cows, going for a road trip](/images/cow-meander.jpg)
 
 # Our goal here at Rare Ruminare is to produce the healthiest and best tasting meat possible.
 
@@ -13,5 +13,3 @@ We manage the farm as an entire ecosystem that the farmed animals are just one e
 ***Clive Bright*** \\
 Email: {% include email.md %} \\
 Mobile: {% include phone.md %}
-
-
