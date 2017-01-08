@@ -15,10 +15,17 @@
   }
 }
 
+@media (max-width: $tablet) {
+  .main-content {
+    padding-bottom: $generic-spacing;
+  }
+}
+
+
 .bottom-links {
 
   padding-top: $generic-spacing;
-
+  padding-bottom: $generic-spacing;
   a, p {
     float: left;
   }

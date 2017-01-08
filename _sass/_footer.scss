@@ -1,6 +1,6 @@
 @import "variables";
 
-footer {
+footer.stamp {
   z-index: 1001;
   position: fixed;
   height: $footer-height;
@@ -34,7 +34,6 @@ footer.social-footer {
   right: 0;
   height: $social-icon-size * 2;
   ul {
-    // position: fixed;
     display: flex;
     list-style: none;
     justify-content: flex-end;
@@ -46,6 +45,30 @@ footer.social-footer {
       padding-left: $generic-spacing / 2;
       width: $social-icon-size;
       height: $social-icon-size;
+      &.back-to-top {
+        width: auto;
+        position: absolute;
+        padding-left: 0;
+        left: $generic-spacing;
+        .triangle {
+          display: inline-block;
+          border-right: 5px solid;
+          border-bottom: 5px solid;
+          width: $social-icon-size / 2;
+          height: $social-icon-size / 2;
+          transform: rotate(-135deg);
+          margin-right: $generic-spacing / 2;
+          vertical-align: middle;
+        }
+        a.scroll-to-top {
+          color: black;
+          &:hover {
+            color: black;
+          }
+          line-height: $social-icon-size;
+          text-decoration: underline;
+        }
+      }
       a {
         display: block;
         height: 100%;
@@ -68,4 +91,30 @@ body.home {
   footer.social-footer, figure.watermark {
     display: none;
   }
+  @media (max-width: $tablet) {
+  footer.social-footer {
+    position: fixed;
+    display: block;
+    padding-bottom: $generic-spacing * 1.5;
+    display: none;
+  }
+}
+}
+
+@media (min-width: $tablet) {
+  .back-top-top {
+     display: none;
+  }
+}
+
+@media (max-width: $tablet) {
+footer.social-footer {
+  display: block;
+  position: static;
+  ul {
+    margin-top: $generic-spacing;
+    padding-bottom: $generic-spacing;
+    padding-right: $generic-spacing;
+  }
+}
 }
