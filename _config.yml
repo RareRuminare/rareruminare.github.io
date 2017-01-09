@@ -30,4 +30,7 @@ markdown: kramdown
 permalink: /blog/:title
 
 sass:
-    style: compressed
+  style: compressed
+
+gems:
+  - jekyll-sitemap
