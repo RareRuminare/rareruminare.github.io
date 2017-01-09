@@ -34,9 +34,12 @@ body.shop, body.about {
 
         .block-link {
           transition: $background-transition;
-          background-color: $primary-colour;
+          background-color: $primary-colour-alpha;
           &:hover, &:active {
-            background-color: $primary-colour-alpha
+            // background-color: $primary-colour-alpha
+            p {
+              text-decoration: underline;
+            }
           }
           text-decoration: none;
           p {

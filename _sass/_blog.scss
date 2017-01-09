@@ -44,6 +44,9 @@ body.blog {
           header {
             background-color: $primary-colour-alpha;
             height: 100%;
+            .blog-title, .blog-date {
+              text-decoration: underline;
+            }
           }
         }
       }
@@ -51,7 +54,7 @@ body.blog {
       header {
         transition: $background-transition;
         height: 100%;
-        background-color: $primary-colour;
+        background-color: $primary-colour-alpha;
         .blog-title, .blog-date {
           padding: $generic-spacing / 2;
         }
