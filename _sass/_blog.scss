@@ -102,7 +102,7 @@ body.blog {
     background-size: cover;
     height: $content-width;
     width: $content-width;
-    margin-bottom: $generic-spacing * 2;
+    margin-bottom: $generic-spacing;
 
     .gel {
       position: absolute;
@@ -147,7 +147,7 @@ body.blog {
     }
 
     p {
-      font-size: 18px;
+      font-size: $medium-font;
     }
 
     .blog-image {
