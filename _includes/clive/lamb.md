@@ -5,7 +5,7 @@
 
 Our lamb is very seasonal and quite limited. It is usually ready in August or early September. The total weight of meat from a whole lamb can vary from 16kg to 25kg depending on the breed of the lamb.
 
-There are two options for how your lamb will be butchered.
+There are two options for how your lamb can be butchered.
 
 # Option One: Standard Chop
 
@@ -18,9 +18,9 @@ With this option you get a full range of cuts and get to explore many different 
 * One shoulder in chops and a slow roast
 * The other shoulder together with the belly in mince and stew
 
-# Option Two: Family Easy Chop
+# Option Two: Family Friendly Chop
 
-I have to confess that since having children this is the way I now butcher my own lamb. The end result is a lot of mince that we use for handy shepherds pies and delicious lamb burgers.
+I have to confess that since having children this is the way I now butcher my own lamb. The end result is a lot of mince and stewing lamb that we use for slow cooked one-pot dishes, shepherds pies and delicious lamb burgers.
 
 ## What's in the box?
 
