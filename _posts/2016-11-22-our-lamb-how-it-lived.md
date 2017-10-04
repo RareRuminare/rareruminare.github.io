@@ -22,7 +22,7 @@ This means that they will naturally be born from late March to April when the we
 
 Easter lamb is not seasonal. This is forced lamb that is born indoors mid-winter and fed and high protein grain diet to reach target weights for the premium Easter market. Ironically this lamb is the poorest quality.
 
-Lamb is in season and at its best late June to early Sept. This is in the natural cycle of a spring birth and slow natural growth on their intended diet of summer grass. Ewe lambs continues to be good into October but Ram lamb can start to become strong and gamey due to the rise in testosterone at rutting season.
+Lamb is in season and at its best late June to early Sept. This is in the natural cycle of a spring birth and slow natural growth on their intended diet of summer grass. Ewe lamb continues to be good into October but Ram lamb can start to become strong and gamey due to the rise in testosterone at rutting season.
 
 We aim to process all our lambs early in September at the latest to avoid any risk of this.
 
@@ -30,9 +30,9 @@ We aim to process all our lambs early in September at the latest to avoid any ri
 
 We use a small family abattoir that take every care in treating each animal with the respect they deserve.
 
-They are delivered the night before so they have the night to relax after the stress of the journey.
+They are delivered the night before so they have the night to relax in the lairage after the stress of the journey.
 
-In the morning they are walked calmly down the chute, as they pass through a screen they are quickly dispatched with a captive bolt gun before being slung up by the hind legs and bled out. In a well-run abattoir the animals are calm before a quick and painless death.
+In the morning they are walked calmly down the chute, as they pass through a screen they are quickly dispatched with a captive bolt gun before being slung up by the hind legs, cut and bled out. In a well-run abattoir the animals are calm before a quick and painless death.
 
 Following this the carcasses are skinned and the heads, hooves and innards are removed.  They then hang in the cold-room for one week to dry-age before  being jointed and butchered.
 
