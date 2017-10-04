@@ -31,6 +31,8 @@ I have to confess that since having children this is the way I now butcher my ow
 
 The whole box is portioned, bagged, clearly labelled and freezer-ready.
 
+Price: (€10 per Kg) the total cost is dictated by the weight of the lamb, they are usually 16Kg - 25kg. We will do our best to select a lamb to suit your needs. Price includes local delivery or we can courier nationwide for an additional €20.
+
 # How to order?
 
 Please email {% include email.md %} or phone {% include phone.md %}. Due to the limited and seasonal nature of this product, supply is limited.
