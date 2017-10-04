@@ -6,13 +6,13 @@
 
 ## What's in the box?
 
-* A selection of some of the typical steaks: striploin, fillet, ribeye, etc.
-* Three or four back-end roasts: eye of the round, silverside, topside, etc.
-* One fore-end roast between 1.5kg and 2.5kg: housekeeper or brisket
+* A selection of the typical steaks: striploin, fillet, ribeye, etc.
+* Three or four back-end roasts: roundroast, silverside, topside, etc.
+* A number of fore-end roasts: housekeeper or brisket
 * Beef strips or stir-fry beef
-* Lean steak trimmings
 * Diced beef or stewing beef
 * Minced beef
+Organ meats and stock bones are availble apon request
 
 The whole box is portioned, bagged, clearly labelled and freezer-ready.
 
