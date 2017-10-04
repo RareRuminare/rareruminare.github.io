@@ -12,8 +12,8 @@
 * Beef strips or stir-fry beef
 * Diced beef or stewing beef
 * Minced beef
-Organ meats and stock bones are availble apon request
-
+* Organ meats and stock bones are availble apon request
+ 
 The whole box is portioned, bagged, clearly labelled and freezer-ready.
 
 Price: €280 (€14 per kg) including delivery.
