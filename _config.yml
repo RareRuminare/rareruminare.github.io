@@ -12,6 +12,9 @@ social:
   - facebook:
     url: "https://www.facebook.com/therareruminare/"
     icon: "/images/facebook.svg"
+  - organictrust:
+    url: "http://organictrust.ie/"
+    icon: "/images/organic-trust-small.png"
 
 contact:
   tel:
