@@ -14,7 +14,7 @@ social:
     icon: "/images/facebook.svg"
   - organictrust:
     url: "http://organictrust.ie/"
-    icon: "/images/organic-trust-small.png"
+    icon: "/images/organic-trust.svg"
 
 contact:
   tel:
