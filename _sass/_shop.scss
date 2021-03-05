@@ -17,13 +17,19 @@ body.shop, body.about {
 
       &.product {
         position: relative;
-        width: 273px;
+        width: 180px;
         height: $content-width;
         padding: 0;
 
+
+        &.product-roseveal {
+          @include background-image-cover("/images/cow-heaven.jpg");
+        }
+
         &.product-lamb {
           @include background-image-cover("/images/shop-lamb.jpg");
-
+          margin-right: $small-spacing;
+          margin-bottom: $generic-spacing;
         }
 
         &.product-beef {
@@ -68,7 +74,7 @@ body.shop, body.about {
           text-decoration: underline;
           background-color: $primary-colour-alpha;
         }
-        &.product-beef {
+        &.product-beef,&.product-lamb {
           margin-right: 0;
         }
       }
