@@ -35,5 +35,5 @@ permalink: /blog/:title
 sass:
   style: compressed
 
-gems:
+config:
   - jekyll-sitemap
