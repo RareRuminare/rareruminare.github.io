@@ -16,7 +16,7 @@
 
 The whole box is portioned, bagged, clearly labelled and freezer-ready.
 
-Price: €330 (€16.50 per kg) including local delivery.
+Price: €380 (€19 per kg) including local delivery.
 We courier meat boxes nationwide for an additional €20
 
 You can find out more about how our animals live and the beef is prepared [here](/blog/our-beef).
